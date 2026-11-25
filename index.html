@@ -1,0 +1,1311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Commanding Heights: A Reader’s Companion (Unofficial)</title>
+<meta name="description" content="An unofficial, independent reader’s companion by Rhet Porter to “The Commanding Heights” by Will Manidis and Joe Roberts: the argument, fourteen data figures, a part-by-part guide, a glossary and an audio read-aloud. Not written or endorsed by the authors.">
+<link rel="canonical" href="https://rhetoricalrhet.github.io/commanding-heights-guide/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Rhet Porter (companion; not the essay’s authors)">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Cpath d='M16 6 L27 25 H5 Z' fill='%232b6a55'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Commanding Heights: A Reader’s Companion">
+<meta property="og:title" content="The Commanding Heights: A Reader’s Companion (Unofficial)">
+<meta property="og:description" content="An unofficial, independent reader’s companion by Rhet Porter to “The Commanding Heights” by Will Manidis and Joe Roberts: the argument, fourteen data figures, a part-by-part guide, a glossary and an audio read-aloud. Not written or endorsed by the authors.">
+<meta property="og:url" content="https://rhetoricalrhet.github.io/commanding-heights-guide/">
+<meta property="og:image" content="https://rhetoricalrhet.github.io/commanding-heights-guide/assets/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Commanding Heights, a reader's companion. Unofficial, not by the authors.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Commanding Heights: A Reader’s Companion (Unofficial)">
+<meta name="twitter:description" content="An unofficial, independent reader’s companion by Rhet Porter to “The Commanding Heights” by Will Manidis and Joe Roberts: the argument, fourteen data figures, a part-by-part guide, a glossary and an audio read-aloud. Not written or endorsed by the authors.">
+<meta name="twitter:image" content="https://rhetoricalrhet.github.io/commanding-heights-guide/assets/social-card.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The Commanding Heights: A Reader’s Companion", "alternativeHeadline": "An unofficial illustrated guide to the essay by Will Manidis and Joe Roberts", "description": "An unofficial, independent reader’s companion by Rhet Porter to “The Commanding Heights” by Will Manidis and Joe Roberts: the argument, fourteen data figures, a part-by-part guide, a glossary and an audio read-aloud. Not written or endorsed by the authors.", "url": "https://rhetoricalrhet.github.io/commanding-heights-guide/", "image": "https://rhetoricalrhet.github.io/commanding-heights-guide/assets/social-card.png", "inLanguage": "en", "dateModified": "2026-11-25", "isAccessibleForFree": true, "author": {"@type": "Person", "name": "Rhet Porter", "url": "https://github.com/rhetoricalrhet"}, "license": "https://creativecommons.org/licenses/by/4.0/", "isBasedOn": {"@type": "Article", "name": "The Commanding Heights", "url": "https://commanding-heights.com/", "datePublished": "2026-10-29", "author": [{"@type": "Person", "name": "Will Manidis"}, {"@type": "Person", "name": "Joe Roberts"}]}, "about": ["artificial intelligence economics", "AI infrastructure investment", "stablecoins and the US dollar", "AI and labor", "private equity"]}</script>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@1&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: a companion volume to the essay. One centered reading column (the essay's own measure),
+   figures that break out wider, small-caps kickers, daggered sources. Light only, like the original. */
+:root{
+  --ink:#1f2428; --slate:#5a636a; --mute:#8a9298; --rule:#c4cacf; --hair:#dde1e4; --wash:#f3f4f5; --paper:#ffffff;
+  --accent:#2b6a55; --accent-wash:#eaf1ee;
+  --s1:#1E73A6; --s2:#BF5E47; --g1:#9BA5AC; --g2:#D3D9DD;
+  --serif:"EB Garamond",Garamond,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --fell:"IM Fell English","EB Garamond",Garamond,Georgia,serif;
+  --sans:"Source Sans 3","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --col:640px; --wide:960px;
+  --lift:0 0 0 1px var(--hair),0 12px 32px rgb(31 36 40 / .12);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:20px;line-height:1.6;font-variant-numeric:oldstyle-nums proportional-nums;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+p{margin:0}
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-decoration-thickness:1px;text-underline-offset:3px;transition:text-decoration-color .16s}
+a:hover{text-decoration-color:var(--accent);color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+em,i{font-style:italic}
+.sc{font-variant-caps:all-small-caps;letter-spacing:.08em}
+.ac{font-variant-caps:all-small-caps;letter-spacing:.04em}
+.col{max-width:var(--col);margin-inline:auto}
+.wide{max-width:var(--wide);margin-inline:auto}
+.sans{font-family:var(--sans)}
+
+/* ---------- title page ---------- */
+.title{padding-block:clamp(4rem,11vw,8rem) 3rem;text-align:center;display:grid;gap:1.6rem;justify-items:center}
+.title .the{font-family:var(--fell);font-style:italic;font-size:clamp(2.4rem,6vw,3.6rem);line-height:.6;display:block;margin-bottom:.2em}
+.title h1{margin:0;font-weight:500;font-size:clamp(2.9rem,9vw,5.4rem);line-height:.95;letter-spacing:.02em}
+.title h1 .cap{display:block}
+.title .sub{font-variant-caps:all-small-caps;letter-spacing:.18em;font-size:1.25rem;color:var(--accent)}
+.title .def{max-width:30ch;font-variant-caps:all-small-caps;letter-spacing:.07em;font-size:1.12rem;line-height:1.45}
+.title .def i{font-variant-caps:normal;letter-spacing:0}
+.title .by{font-size:1rem;color:var(--slate);max-width:44ch}
+.title .meta{font-family:var(--sans);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;justify-content:center}
+.orn{text-align:center;color:var(--mute);letter-spacing:.6em;font-size:1rem;margin-block:.5rem}
+.rule-accent{width:56px;height:1px;background:var(--accent);margin-inline:auto}
+
+/* contents */
+.toc{border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);padding-block:2rem;display:grid;gap:1.2rem}
+.toc h2{font-size:1rem;font-weight:500;font-variant-caps:all-small-caps;letter-spacing:.18em;text-align:center;margin:0;color:var(--slate)}
+.toc ol{list-style:none;margin:0;padding:0;columns:2;column-gap:3rem}
+.toc li{break-inside:avoid;display:grid;grid-template-columns:2.2rem 1fr;align-items:baseline;padding-block:.18rem}
+.toc .n{font-variant-caps:all-small-caps;color:var(--mute);letter-spacing:.06em}
+.toc a{text-decoration:none}
+.toc a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+
+/* ---------- chapters ---------- */
+.ch{padding-block:clamp(3.5rem,8vw,6rem) 0;display:grid;gap:1.6rem}
+.ch>*{min-width:0}
+.ch-head{display:grid;gap:.5rem;text-align:center;justify-items:center}
+.kicker{font-variant-caps:all-small-caps;letter-spacing:.16em;font-size:1.05rem;color:var(--slate);display:flex;gap:.7rem;align-items:baseline;flex-wrap:wrap;justify-content:center}
+.kicker .from{color:var(--mute);font-style:italic;font-variant-caps:normal;letter-spacing:0;font-size:.95rem}
+.ch h2{margin:0;font-weight:500;font-size:clamp(2.1rem,5.2vw,3.2rem);line-height:1.08;text-wrap:balance;max-width:20ch}
+.ch .brief{font-style:italic;font-size:1.2rem;color:var(--slate);text-align:center;max-width:36ch;margin-inline:auto;line-height:1.45}
+.prose{display:grid;gap:1.05rem;hyphens:auto;-webkit-hyphens:auto}
+.prose p{text-align:justify;text-align-last:left}
+.prose p+p{text-indent:1.4em}
+.prose .lead::first-letter{font-size:3.1em;float:left;line-height:.8;padding:.06em .08em 0 0;color:var(--accent)}
+.orig,.orig-mark{font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);text-decoration:none;font-variant-caps:normal}
+.orig:hover{text-decoration:underline}
+.howto{text-align:center;font-style:italic;color:var(--slate);font-size:1rem;max-width:48ch;margin-inline:auto}
+.ch.story-ch .ch-head h2{font-style:italic;font-weight:400}
+.tale{display:grid;gap:1.05rem;font-size:1.08rem;line-height:1.7}
+.tale p{text-align:justify;text-align-last:left;hyphens:auto}
+.tale p+p{text-indent:1.4em}
+.tale .time{font-variant-caps:all-small-caps;letter-spacing:.1em;color:var(--accent)}
+.tale .coda{font-style:italic;color:var(--slate);text-indent:0!important;text-align:center;border-top:1px solid var(--hair);padding-top:1rem;margin-top:.4rem}
+.paraphrase{font-family:var(--sans);font-size:.78rem;color:var(--mute);text-align:center;letter-spacing:.02em}
+details.why{max-width:var(--col);margin-inline:auto;width:100%;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+details.why summary{cursor:pointer;list-style:none;padding:.7rem 0;font-variant-caps:all-small-caps;letter-spacing:.12em;color:var(--accent);font-size:1.02rem;display:flex;justify-content:space-between;gap:1rem}
+details.why summary::-webkit-details-marker{display:none}
+details.why summary::after{content:"+";font-family:var(--sans);font-size:1.1rem;letter-spacing:0}
+details.why[open] summary::after{content:"–"}
+details.why summary span{color:var(--slate);font-variant-caps:normal;letter-spacing:0;font-style:italic;font-size:.98rem;flex:1}
+details.why .body{padding:0 0 1rem;display:grid;gap:.7rem;color:var(--slate);font-size:1.02rem}
+details.why .body ul{margin:0;padding-left:1.1rem;display:grid;gap:.35rem}
+.past{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink)}
+.past>div{padding:1rem 1rem 1rem 0;display:grid;gap:.35rem;align-content:start;min-width:0}
+.past>div+div{padding-left:1rem;border-left:1px solid var(--hair)}
+.past small{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.past b{font-weight:500;font-size:1.15rem;line-height:1.2}
+.past p{color:var(--slate);font-size:.95rem;line-height:1.45}
+.past .toll{font-family:var(--sans);font-size:.8rem;color:var(--accent);border-top:1px solid var(--hair);padding-top:.4rem}
+.hint{display:none;font-family:var(--sans);font-size:.75rem;color:var(--mute);text-align:right}
+.closing-ch{padding-bottom:1rem}
+.closing-ch .tale{font-style:italic}
+.closing-ch .tale p{text-indent:0!important;text-align:center;text-align-last:center}
+.listen{background:none;border:1px solid var(--rule);border-radius:999px;padding:.15rem .65rem .2rem;font-family:var(--sans);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);cursor:pointer;font-variant-caps:normal;display:inline-flex;gap:.4rem;align-items:baseline}
+.listen span{color:var(--mute);letter-spacing:.04em;text-transform:none}
+.listen:hover{border-color:var(--accent);color:var(--accent)}
+.no-speech .listen,.no-speech #listen-all{display:none!important}
+.listen-hero{font-size:.8rem;padding:.4rem 1rem}
+.reading{background:var(--accent-wash);box-shadow:0 0 0 .4rem var(--accent-wash);border-radius:2px;transition:background .2s}
+body.has-player{padding-bottom:5.5rem}
+.player{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--paper);border-top:1px solid var(--rule);box-shadow:0 -8px 24px rgb(31 36 40 / .08);padding:.6rem max(16px,env(safe-area-inset-right,0px)) calc(.6rem + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.pl-in{max-width:var(--wide);margin-inline:auto;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.pl-b{background:none;border:1px solid var(--rule);border-radius:50%;width:2.3rem;height:2.3rem;display:grid;place-items:center;cursor:pointer;color:var(--ink);font-size:.8rem;font-family:var(--sans);flex:none}
+.pl-b:hover{border-color:var(--accent);color:var(--accent)}
+.pl-main{background:var(--ink);color:var(--paper);border-color:var(--ink);width:2.7rem;height:2.7rem}
+.pl-main:hover{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.pl-x{border:0}
+.pl-meta{flex:1 1 180px;min-width:0;display:grid;gap:.35rem}
+.pl-sec{font-style:italic;font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pl-prog{height:2px;background:var(--hair)}
+.pl-prog i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.pl-opt{display:flex;gap:.4rem;align-items:center;font-family:var(--sans);font-size:.75rem;color:var(--mute);letter-spacing:.06em;text-transform:uppercase}
+.pl-opt select{font-family:var(--sans);font-size:.85rem;border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:.2rem .3rem;border-radius:3px;max-width:11rem;text-transform:none;letter-spacing:0}
+.pl-credit{font-family:var(--sans);font-size:.7rem;color:var(--mute);letter-spacing:.04em}
+@media (max-width:600px){
+  table.ledger,table.settle{min-width:0}
+  table.ledger thead{display:none}
+  table.ledger,table.ledger tbody,table.ledger tr{display:block;width:100%}
+  table.ledger tr{border-bottom:1px solid var(--hair);padding:.9rem 0;display:grid;grid-template-columns:auto auto 1fr;gap:.15rem .5rem;align-items:baseline}
+  table.ledger th,table.ledger td{border:0;padding:0;display:block}
+  table.ledger tbody th{grid-column:1 / -1;white-space:normal;font-size:1.1rem}
+  table.ledger td:last-child{grid-column:1 / -1;margin-top:.25rem}
+  table.settle tr{grid-template-columns:1fr}
+  table.settle td::before{content:attr(data-label) ": ";font-family:var(--sans);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+  table.settle tr.now th,table.settle tr.now td{padding-left:0}
+  table.settle tr.now{padding-inline:.6rem}
+  details.why summary{flex-wrap:wrap;gap:.1rem .8rem}
+  details.why summary span{flex:1 1 100%;order:3}
+.pl-opt span,.pl-credit{display:none}}
+.share{background:none;border:0;padding:0;font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);cursor:pointer}
+.share:hover{color:var(--accent)}
+
+/* propositions */
+.props{list-style:none;margin-block:0;padding:0;display:grid;gap:0;border-top:1px solid var(--hair)}
+.props li{display:grid;grid-template-columns:3rem minmax(0,1fr) auto;gap:1rem;padding-block:1.1rem;border-bottom:1px solid var(--hair);align-items:baseline}
+.props .n{font-size:1.6rem;color:var(--accent);font-variant-numeric:oldstyle-nums}
+.props b{font-weight:600;display:block;font-size:1.12rem;line-height:1.3;margin-bottom:.2rem}
+.props span{color:var(--slate);font-size:1.02rem;line-height:1.5;display:block}
+.props .part{font-variant-caps:all-small-caps;letter-spacing:.1em;color:var(--mute);font-size:.95rem;white-space:nowrap}
+
+/* figures */
+figure{margin:0;display:grid;gap:1rem}
+figure.wide{max-width:var(--wide);margin-inline:auto;width:100%}
+.figbox{border-top:1px solid var(--ink);padding-top:1.1rem;display:grid;gap:1rem}
+figcaption{font-style:italic;color:var(--slate);font-size:1.02rem;line-height:1.45;text-align:center;max-width:56ch;margin-inline:auto}
+.fighead{display:grid;gap:.2rem}
+.fighead .label{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.fighead b{font-weight:500;font-size:1.35rem;line-height:1.2}
+.fighead span{font-family:var(--sans);font-size:.9rem;color:var(--slate)}
+.source{font-family:var(--sans);font-size:.78rem;line-height:1.5;color:var(--mute);border-top:1px solid var(--hair);padding-top:.6rem}
+.source::before{content:"† ";color:var(--slate)}
+.legend{display:flex;gap:1.2rem;flex-wrap:wrap;font-family:var(--sans);font-size:.85rem;color:var(--slate)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:.45rem;vertical-align:-1px}
+.chart{width:100%;overflow-x:auto}
+.chart svg{display:block;width:100%;height:auto}
+#c-scissors svg,#c-reserves svg,#c-bonds svg,#c-train svg,#c-cash svg,#c-arena svg{min-width:560px}
+.chart text{font-family:var(--sans);font-size:13px;fill:var(--mute);font-variant-numeric:lining-nums tabular-nums}
+.chart .lbl{fill:var(--ink);font-size:14px}
+.chart .lbl2{fill:var(--slate);font-size:13px}
+.chart .grid{stroke:var(--ink);stroke-opacity:.07;stroke-width:1}
+.chart .axis{stroke:var(--ink);stroke-width:1}
+.hit{fill:transparent;cursor:crosshair}
+.slider{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;font-family:var(--sans);font-size:.88rem;color:var(--slate)}
+.slider input{flex:1 1 220px;accent-color:var(--accent)}
+.readout{font-family:var(--sans);font-size:.95rem;color:var(--ink);background:var(--wash);padding:.6rem .8rem;line-height:1.5}
+.readout b{font-weight:600}
+details.data summary{cursor:pointer;font-family:var(--sans);font-size:.78rem;color:var(--mute);letter-spacing:.04em}
+details.data table{border-collapse:collapse;font-family:var(--sans);font-size:.82rem;margin-top:.5rem;font-variant-numeric:lining-nums tabular-nums}
+details.data td,details.data th{border-bottom:1px solid var(--hair);padding:.25rem 1rem .25rem 0;text-align:left}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:.82rem;padding:.55rem .7rem;border-radius:4px;box-shadow:var(--lift);max-width:260px;line-height:1.4;opacity:0;transition:opacity .12s}
+#tip.on{opacity:1}
+#tip b{font-weight:600}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.5rem}
+.figs{max-width:var(--wide);margin-inline:auto;width:100%}
+
+/* figures in numbers */
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--hair);max-width:var(--wide);margin-inline:auto;width:100%}
+.nums>div{padding:1.1rem 1.1rem 1.2rem;display:grid;gap:.35rem;align-content:start;min-width:0}
+.nums>div+div{border-left:1px solid var(--hair)}
+.nums b{font-weight:500;font-size:2.15rem;line-height:1;font-variant-numeric:lining-nums}
+.nums span{font-family:var(--sans);font-size:.86rem;color:var(--slate);line-height:1.4}
+
+/* value chain */
+.chain{display:grid;gap:10px}
+.sov{border:1px solid var(--rule);background:var(--wash);padding:.7rem 1rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:baseline}
+.sov b{font-variant-caps:all-small-caps;letter-spacing:.12em;font-weight:500;font-size:1.05rem}
+.sov span{font-family:var(--sans);font-size:.86rem;color:var(--slate)}
+.layers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;position:relative}
+.layer{border:1px solid var(--rule);padding:1rem;display:grid;gap:.55rem;align-content:start;min-width:0;background:var(--paper);position:relative}
+.layer+.layer{border-left:0}
+.layer .step{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.layer h3{margin:0;font-weight:500;font-size:1.3rem;line-height:1.15}
+.layer ul{margin:0;padding:0;list-style:none;font-family:var(--sans);font-size:.85rem;color:var(--slate);display:grid;gap:.2rem}
+.layer .verdict{font-style:italic;font-size:.98rem;line-height:1.35;border-top:1px solid var(--hair);padding-top:.55rem}
+.layer.height{background:var(--accent-wash);border-color:var(--accent);z-index:1}
+.layer.height h3,.layer.height .verdict{color:var(--accent)}
+.dur{display:grid;gap:.25rem}
+.dur .bar{height:5px;background:var(--hair);border-radius:3px;overflow:hidden}
+.dur .bar i{display:block;height:100%;background:var(--ink)}
+.layer.height .dur .bar i{background:var(--accent)}
+.dur small{font-family:var(--sans);font-size:.7rem;letter-spacing:.06em;color:var(--mute);text-transform:uppercase}
+.layer:not(:last-child)::after{content:"→";position:absolute;right:-.62rem;top:1rem;font-family:var(--sans);font-size:.9rem;color:var(--mute);background:var(--paper);z-index:2;line-height:1;padding:.1rem 0}
+
+/* explorer */
+.explorer{border-top:1px solid var(--ink);border-bottom:1px solid var(--hair)}
+.profile{display:block;width:100%;height:auto}
+.stop{cursor:pointer}
+.stop .dot{fill:var(--paper);stroke:var(--ink);stroke-width:1.4}
+.stop.active .dot{fill:var(--accent);stroke:var(--accent)}
+.stop text{font-family:var(--serif);font-size:15px;fill:var(--slate);font-variant-caps:all-small-caps;letter-spacing:.08em}
+.stop.active text{fill:var(--accent)}
+.stop:hover .dot{stroke:var(--accent)}
+.stop:focus{outline:none}
+.stop:focus-visible .ring{stroke:var(--accent)}
+.tabs{display:flex;flex-wrap:wrap;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.tabs button{flex:1 1 0;min-width:56px;font-family:var(--serif);font-size:1.02rem;font-variant-caps:all-small-caps;letter-spacing:.1em;border:0;background:transparent;color:var(--mute);padding:.55rem .3rem;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.tabs button:hover{color:var(--ink)}
+.panel{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:2.5rem;padding-block:1.6rem}
+.panel h3{margin:0;font-weight:500;font-size:2rem;line-height:1.1}
+.panel .sum{font-size:1.08rem}
+.panel ul{margin:0;padding-left:1.1rem;display:grid;gap:.4rem;color:var(--slate);font-size:1.02rem}
+.panel .side{display:grid;gap:1.1rem;align-content:start}
+.panel .num{border-top:1px solid var(--ink);padding-top:.7rem;display:grid;gap:.3rem}
+.panel .num b{font-weight:500;font-size:2.4rem;line-height:1;font-variant-numeric:lining-nums}
+.panel .num span{font-family:var(--sans);font-size:.88rem;color:var(--slate)}
+.panel .cap{background:var(--accent-wash);padding:.85rem 1rem;display:grid;gap:.25rem}
+.panel .cap small{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.panel .cap p{font-size:1rem;line-height:1.45}
+.panel a.jump{font-family:var(--sans);font-size:.8rem;letter-spacing:.06em;color:var(--slate)}
+
+/* ledger table */
+.ledger{width:100%;border-collapse:collapse;font-size:1.02rem}
+.ledger th,.ledger td{text-align:left;padding:.75rem .9rem .75rem 0;border-bottom:1px solid var(--hair);vertical-align:top}
+.ledger thead th{font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);border-bottom:1px solid var(--ink)}
+.ledger tbody th{font-weight:500;white-space:nowrap}
+.ledger td{color:var(--slate)}
+.ledger .arrow{color:var(--accent);font-family:var(--sans)}
+.ledger tr.open td,.ledger tr.open th{color:var(--accent)}
+.tblwrap{overflow-x:auto}
+.waffle-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2rem;align-items:center}
+.waffle{display:grid;grid-template-columns:repeat(10,13px);gap:3px}
+.waffle i{width:13px;height:13px;background:var(--hair);display:block;border-radius:1px}
+.waffle i.on{background:var(--accent)}
+.big{font-weight:500;font-size:clamp(3rem,7vw,4.4rem);line-height:.9;font-variant-numeric:lining-nums;color:var(--accent)}
+
+/* tiers */
+.tiers{display:grid;gap:6px;justify-items:center}
+.tier{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1.2rem;padding:.95rem 1.2rem;border:1px solid var(--rule);align-items:center;width:100%}
+.tier:nth-child(1){max-width:58%;background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tier:nth-child(1) span{color:var(--hair)}
+.tier:nth-child(2){max-width:79%;background:var(--wash)}
+.tier h3{margin:0;font-weight:500;font-size:1.25rem}
+.tier span{font-family:var(--sans);font-size:.86rem;color:var(--slate)}
+.tier .who{font-family:var(--sans);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;text-align:right;line-height:1.4}
+
+/* flow */
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--ink)}
+.flow>div{padding:1rem .9rem 1rem 0;display:grid;gap:.35rem;align-content:start;min-width:0;position:relative}
+.flow>div+div{padding-left:.9rem;border-left:1px solid var(--hair)}
+.flow .k{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.flow b{font-weight:500;font-size:1.15rem;line-height:1.2}
+.flow span{font-family:var(--sans);font-size:.86rem;color:var(--slate);line-height:1.45}
+.flow .toll .k,.flow .toll b{color:var(--accent)}
+
+/* K */
+.kgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.5rem}
+.kcol{display:grid;gap:.9rem;align-content:start}
+.kcol h3{margin:0;font-weight:500;font-size:1.35rem;border-bottom:1px solid var(--ink);padding-bottom:.4rem;display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.kcol h3 small{font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:400}
+.kitem b{font-weight:600}
+.kitem p{color:var(--slate);font-size:1rem;line-height:1.5}
+.kcol.up h3{color:var(--accent);border-color:var(--accent)}
+.people{display:flex;gap:8px;align-items:flex-end;justify-content:center}
+.people svg{width:30px;height:auto}
+blockquote.story{margin-block:0;padding-left:2.2rem;font-style:italic;color:var(--slate);font-size:1.08rem;line-height:1.6;display:grid;gap:.8rem}
+blockquote.story .who{font-style:normal;font-variant-caps:all-small-caps;letter-spacing:.14em;color:var(--mute)}
+
+/* test */
+.vs{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-top:1px solid var(--ink)}
+.vs>div{padding:1rem 1.2rem 1rem 0;display:grid;gap:.5rem;align-content:start;min-width:0}
+.vs>div+div{padding-left:1.2rem;border-left:1px solid var(--hair)}
+.vs h3{margin:0;font-weight:500;font-size:1.3rem}
+.vs>div+div h3{color:var(--accent)}
+.vs ul{margin:0;padding-left:1.05rem;color:var(--slate);font-size:1rem;display:grid;gap:.3rem}
+.tester{border:1px solid var(--rule);padding:1.4rem 1.5rem;display:grid;gap:1.1rem;box-shadow:var(--lift);border-radius:2px}
+.tester h3{margin:0;font-weight:500;font-size:1.5rem}
+.presets{display:flex;gap:.45rem;flex-wrap:wrap}
+.chip{font-family:var(--sans);font-size:.82rem;border:1px solid var(--rule);background:var(--paper);color:var(--slate);padding:.35rem .7rem;cursor:pointer;border-radius:999px}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-wash);color:var(--accent)}
+.qs{display:grid;gap:.15rem}
+.qrow{display:grid;grid-template-columns:auto 1fr;gap:.8rem;align-items:start;cursor:pointer;padding:.5rem 0;border-bottom:1px solid var(--hair)}
+.qrow input{appearance:none;width:20px;height:20px;border:1.4px solid var(--g1);border-radius:50%;margin:.3rem 0 0;display:grid;place-content:center;cursor:pointer;background:var(--paper)}
+.qrow input:checked{background:var(--accent);border-color:var(--accent)}
+.qrow input:checked::after{content:"";width:8px;height:5px;border-left:1.8px solid var(--paper);border-bottom:1.8px solid var(--paper);transform:rotate(-45deg) translate(1px,-1px)}
+.qrow b{font-weight:600;display:block}
+.qrow span{font-family:var(--sans);font-size:.88rem;color:var(--slate)}
+.verdict{display:grid;grid-template-columns:auto 1fr;gap:1.1rem;align-items:center}
+.meter{display:flex;gap:3px}
+.meter i{width:8px;height:34px;background:var(--hair);display:block;border-radius:1px}
+.meter i.on{background:var(--accent)}
+.verdict b{font-weight:500;font-size:1.5rem;display:block;line-height:1.1}
+.verdict span{font-family:var(--sans);font-size:.88rem;color:var(--slate)}
+.fine{font-family:var(--sans);font-size:.78rem;color:var(--mute);line-height:1.5}
+
+/* settlements */
+.settle{min-width:720px}
+.settle tbody th small{display:block;font-family:var(--sans);font-size:.75rem;color:var(--mute);font-weight:400;margin-top:.15rem;letter-spacing:.02em}
+.settle tr.now{background:var(--accent-wash)}
+.settle tr.now th{color:var(--accent)}
+.settle tr.now th,.settle tr.now td{padding-left:.6rem}
+
+/* allocator */
+.matrix-wrap{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:2.5rem;align-items:center}
+.matrix{overflow-x:auto}
+.matrix svg{display:block;width:100%;height:auto;min-width:440px}
+.matrix text{font-family:var(--sans)}
+.moves{list-style:none;margin:0;padding:0;counter-reset:m;display:grid;gap:0;border-top:1px solid var(--ink)}
+.moves li{counter-increment:m;display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.8rem;padding-block:1rem;border-bottom:1px solid var(--hair)}
+.moves li::before{content:counter(m,upper-roman);font-variant-caps:all-small-caps;letter-spacing:.06em;color:var(--accent);font-size:1.1rem}
+.moves b{font-weight:600;display:block}
+.moves p{color:var(--slate);font-size:1rem;line-height:1.5}
+.redacted{background:var(--ink);color:var(--ink);padding:0 .2em;border-radius:1px;font-family:var(--sans);letter-spacing:.05em;user-select:none}
+.eras{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink)}
+.eras>div{padding:1rem 1.1rem 1rem 0;display:grid;gap:.35rem;align-content:start;min-width:0}
+.eras>div+div{padding-left:1.1rem;border-left:1px solid var(--hair)}
+.eras small{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.eras b{font-weight:500;font-size:1.2rem}
+.eras p{color:var(--slate);font-size:.98rem;line-height:1.5}
+.eras .next b,.eras .next small{color:var(--accent)}
+.instructions{margin:0;padding-left:1.3rem;display:grid;gap:.45rem;color:var(--slate)}
+
+/* glossary */
+.gloss{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.4rem 2.2rem;margin-block:0}
+.gloss div{min-width:0;border-top:1px solid var(--hair);padding-top:.6rem}
+.gloss dt{font-variant-caps:all-small-caps;letter-spacing:.1em;font-size:1.15rem;font-weight:500}
+.gloss dd{margin:.25rem 0 0;color:var(--slate);font-size:.98rem;line-height:1.5}
+.qlist{margin:0;padding-left:1.3rem;display:grid;gap:.6rem}
+
+/* colophon */
+.notice{max-width:46ch;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem .2rem;font-size:.98rem;line-height:1.5;color:var(--slate);text-align:center}
+.authors{display:grid;justify-items:center;gap:.35rem;margin-top:.2rem}
+.authors .lbl{font-variant-caps:all-small-caps;letter-spacing:.16em;color:var(--mute);font-size:.98rem}
+.authors .pair{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;justify-content:center}
+.authors .who{display:grid;justify-items:center;line-height:1.25}
+.authors .who b{font-weight:500;font-variant-caps:small-caps;letter-spacing:.04em;font-size:1.2rem}
+.authors .who a{font-family:var(--sans);font-size:.78rem;color:var(--slate);text-decoration:none;user-select:all}
+.authors .who a:hover{color:var(--accent);text-decoration:underline}
+.authors .amp{font-family:var(--fell);font-style:italic;font-size:1.7rem;color:var(--slate)}
+.prepared{font-variant-caps:all-small-caps;letter-spacing:.16em;color:var(--ink);font-size:1.08rem}
+.notice .sig{display:block;font-style:italic;margin-top:.35rem;color:var(--ink)}
+.notice .sig::before{content:"— "}
+.notice b{font-variant-caps:all-small-caps;letter-spacing:.12em;font-weight:600;color:var(--ink);display:block;margin-bottom:.2rem}
+.colophon .notice{max-width:56ch}
+.colophon{padding-block:5rem 5rem;text-align:center;display:grid;gap:1rem;justify-items:center;color:var(--slate);font-size:1rem}
+.colophon .fine{max-width:56ch}
+.backtop{font-variant-caps:all-small-caps;letter-spacing:.14em}
+
+@media (max-width:900px){
+  .past{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .past>div:nth-child(3){border-left:0;padding-left:0}
+  .past>div:nth-child(n+3){border-top:1px solid var(--hair)}
+  .layers{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .layer:nth-child(3){border-left:1px solid var(--rule);border-top:0}
+  .layer:nth-child(4){border-top:0}
+  .layer.height{border-color:var(--accent)}
+  .layer:nth-child(2)::after{display:none}
+  .nums{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nums>div:nth-child(3){border-left:0}
+  .nums>div:nth-child(n+3){border-top:1px solid var(--hair)}
+  .two,.kgrid,.panel,.matrix-wrap{grid-template-columns:minmax(0,1fr)}
+  .flow{grid-template-columns:minmax(0,1fr)}
+  .flow>div+div{padding-left:0;border-left:0;border-top:1px solid var(--hair)}
+  .gloss{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .eras{grid-template-columns:minmax(0,1fr)}
+  .eras>div+div{padding-left:0;border-left:0;border-top:1px solid var(--hair)}
+}
+@media (max-width:600px){
+  .hint{display:block}
+  .past{grid-template-columns:minmax(0,1fr)}
+  .past>div+div{border-left:0;padding-left:0;border-top:1px solid var(--hair)}
+  .tale p{text-align:left}
+  body{font-size:18.5px}
+  .toc ol{columns:1}
+  .layers{grid-template-columns:minmax(0,1fr)}
+  .layer+.layer,.layer:nth-child(3),.layer:nth-child(4){border-left:1px solid var(--rule);border-top:0}
+  .layer.height{border-top:1px solid var(--accent)}
+  .layer::after{display:none}
+  .props li{grid-template-columns:2.2rem minmax(0,1fr)}
+  .props .part{grid-column:2}
+  .vs{grid-template-columns:minmax(0,1fr)}
+  .vs>div+div{padding-left:0;border-left:0;border-top:1px solid var(--hair)}
+  .gloss{grid-template-columns:minmax(0,1fr)}
+  .tier:nth-child(1),.tier:nth-child(2){max-width:100%}
+  .waffle-row{grid-template-columns:minmax(0,1fr);justify-items:start}
+  .prose p{text-align:left}
+  .stop text{display:none}
+  .chart text{font-size:15px}
+  .chart .lbl{font-size:16px}
+  .chart .lbl2{font-size:15px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+
+<header class="title" id="top">
+  <div class="sub">A Reader’s Companion</div>
+  <h1><span class="the">the</span><span class="cap">COMMANDING</span><span class="cap">HEIGHTS</span></h1>
+  <p class="def">Intelligence is becoming <i>cheap</i>. The fortunes will go to whoever owns <i>the routes</i> it must travel.</p>
+  <div class="rule-accent"></div>
+  <div class="authors" aria-label="Authors of the original essay">
+    <span class="lbl">The essay by</span>
+    <div class="pair">
+      <span class="who"><b>Will Manidis</b><a href="mailto:will@willmanidis.com">will@willmanidis.com</a></span>
+      <span class="amp" aria-hidden="true">&amp;</span>
+      <span class="who"><b>Joe Roberts</b><a href="mailto:joe@josephjcroberts.com">joe@josephjcroberts.com</a></span>
+    </div>
+  </div>
+  <p class="by">An illustrated guide to their essay of <i>October 29, 2026</i>. Its forty thousand words, set out in fourteen figures.</p>  <p class="notice" role="note"><b>Not the original, and not by its authors</b>This is an independent companion to the essay. Will Manidis and Joe Roberts did not write, review or endorse it. Every summary, chart and interpretation here is my own reading, and any errors, simplifications or misreadings are mine, not theirs. For their actual words, <a href="https://commanding-heights.com/" target="_blank" rel="noopener">read the essay</a>. <span class="sig">Rhet Porter</span></p>
+  <button type="button" class="listen listen-hero" id="listen-all" hidden>Listen to the companion <span></span></button>
+  <div class="meta"><span>Twenty-five-minute read</span><span>Unofficial</span><span><a href="https://commanding-heights.com/" target="_blank" rel="noopener">Read the original ↗</a></span></div>
+</header>
+
+<nav class="toc col" aria-labelledby="toc-h">
+  <h2 id="toc-h">Contents</h2>
+  <p class="howto">Read it alongside the essay. Each section links to the matching passage in the original, marked <span class="orig-mark">↗ in the original</span>.</p>
+  <ol>
+    <li><span class="n">—</span><a href="#ravi">Prologue: Ravi</a></li>
+    <li><span class="n">i</span><a href="#brief">The argument in brief</a></li>
+    <li><span class="n">ii</span><a href="#value-chain">Where the margin settles</a></li>
+    <li><span class="n">iii</span><a href="#parts">The essay, part by part</a></li>
+    <li><span class="n">iv</span><a href="#pattern">Inventors rarely keep the fortune</a></li>
+    <li><span class="n">v</span><a href="#scissors">The scissors</a></li>
+    <li><span class="n">vi</span><a href="#line">The Line</a></li>
+    <li><span class="n">vii</span><a href="#powers">Two sovereigns</a></li>
+    <li><span class="n">viii</span><a href="#neo-dollar">The Neo-Dollar</a></li>
+    <li><span class="n">ix</span><a href="#k-shape">The widening K</a></li>
+    <li><span class="n">x</span><a href="#test">Height or bottleneck?</a></li>
+    <li><span class="n">xi</span><a href="#firm">The fourth settlement</a></li>
+    <li><span class="n">xii</span><a href="#allocator">For the allocator</a></li>
+    <li><span class="n">—</span><a href="#closing">Closing: out from the garden</a></li>
+    <li><span class="n">—</span><a href="#glossary">Appendix: glossary &amp; questions</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<!-- PROLOGUE -->
+<section class="ch story-ch" id="ravi">
+  <header class="ch-head col">
+    <div class="kicker"><span>Prologue</span><span>Ravi</span><a class="orig" href="https://commanding-heights.com/#ravi" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="ravi">Copy link</button></div>
+    <h2>Abundant intelligence comes to Bangalore</h2>
+    <p class="brief">The essay does not open with a thesis. It opens with one man's day.</p>
+  </header>
+  <div class="tale col">
+    <p><span class="time">5:56 a.m.</span> Ravi wakes before his wife in a fifteenth-floor apartment in Bellandur. He is a graduate of IIT Madras, the son of a scooter mechanic from Hubballi who told him to work with his mind, not his hands. He stayed in India when classmates left for the West, and rose through a firm that does back-office accounting for American insurers.</p>
+    <p>His work has ballooned. He now oversees delivery for five North American clients instead of one or two, but he no longer manages people. He checks the output of AI agents, built on Chinese models, and lately approves their reports without reading them. Graduate hiring has been paused for a year. Three of his team of fifteen have left, and none will be replaced. Margins are rising, and he is earning more than ever.</p>
+    <p><span class="time">9:30 a.m.</span> The local stock index opens at a record. On a call, the chief executive of the firm's American parent announces a restructuring: Ravi's division is cut in half, effective immediately, and staff across the subsidiary will fall by ninety percent over the coming months.</p>
+    <p><span class="time">10:21 p.m.</span> He gets home late. Riots have spread across Indian cities as layoffs mount, and youth unemployment in Bangalore has climbed from five percent to thirty. His daughter is studying with an AI tutor that costs almost nothing and is teaching her faster than her school did, toward what, he no longer knows. From the balcony, behind a new concrete wall and razor wire, Ravi and his wife watch smoke rise over the city and, for the first time in months, reach for each other's hands.</p>
+    <p class="coda">Ravi returns in Part V, and his daughter closes the essay.</p>
+  </div>
+  <p class="paraphrase">Retold in summary from the essay's opening. The authors' own telling is longer and in their words.</p>
+</section>
+
+<!-- i. BRIEF -->
+<section class="ch" id="brief">
+  <header class="ch-head col">
+    <div class="kicker"><span>i</span><span>The argument in brief</span><a class="orig" href="https://commanding-heights.com/#overture" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="brief">Copy link</button></div>
+    <h2>Intelligence is the giveaway. The conduit is the business.</h2>
+  </header>
+  <div class="prose col">
+    <p class="lead">Every great technology has paid its inventors less than it paid the people who controlled its distribution. Gutenberg went insolvent. The rail fortunes went to men who never built a locomotive. Manidis and Roberts argue that machine intelligence will follow the same path, faster. Frontier models are copied within months, so the price of any given capability collapses toward the cost of the computing power that runs it.</p>
+    <p>The money, they argue, will settle in a few positions that intelligence has to pass through to reach the wider economy. Those positions are scarce, controllable and durable. Borrowing Lenin's phrase from 1922, the authors call them <em>the Commanding Heights</em>. The essay sets out six connected propositions.</p>
+    <p>It is not only an investment thesis. It is also a warning. The same forces that create the Heights break the ladder of development for countries like India, close the door on emigration, and widen the gap between owners and everyone else. In the world the authors describe, there are only <em>“sovereigns, exarchates, and the wretched.”</em> The essay keeps both in view, and so should anyone reading it.</p>
+  </div>
+  <ol class="props col" aria-label="Six propositions">
+    <li><span class="n">1</span><div><b>Models commoditize.</b><span>The price of a fixed level of capability has fallen about thirteenfold a year. Open models trail the frontier by roughly four months.</span></div><span class="part">Overture</span></li>
+    <li><span class="n">2</span><div><b>The spending cannot stop.</b><span>Training costs grow about 3.5× a year. For one lab, falling behind means writing off everything already spent, so what is rational for each lab can destroy capital in aggregate.</span></div><span class="part">Part I</span></li>
+    <li><span class="n">3</span><div><b>The state underwrites the Line.</b><span>US growth, indexes and retirement savings now depend on AI, so Washington will backstop it. The true frontier moves behind government walls, and only America and China can stay in that race.</span></div><span class="part">Parts II–III</span></li>
+    <li><span class="n">4</span><div><b>Diffusion runs on dollars.</b><span>Cheap models reach billions of people through phones, paid in dollar stablecoins. That creates global demand for dollars and quietly exports US inflation.</span></div><span class="part">Part IV</span></li>
+    <li><span class="n">5</span><div><b>The K widens everywhere.</b><span>Offshore back offices are hit first. Licensed workers in rich countries are protected, and emigration routes close. Owners pull away from earners, and then from each other.</span></div><span class="part">Part V</span></li>
+    <li><span class="n">6</span><div><b>Value pools at the Heights, which are not yet priced.</b><span>Firms reorganize around a few operators paid like capital. Investors holding the last era's champions should rebuild their portfolios while the new positions can still be bought.</span></div><span class="part">Parts VI–VIII</span></li>
+  </ol>
+</section>
+
+<!-- ii. VALUE CHAIN -->
+<section class="ch" id="value-chain">
+  <header class="ch-head col">
+    <div class="kicker"><span>ii</span><span>Where the margin settles</span><a class="orig" href="https://commanding-heights.com/#overture" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="value-chain">Copy link</button></div>
+    <h2>The value chain, as this guide reads the essay</h2>
+    <p class="brief">Margin is real at every layer. It lasts at only one.</p>
+  </header>
+  <figure class="wide">
+    <div class="chain">
+      <div class="sov"><b>The sovereign</b><span>Backstops Genesis, takes the true frontier for itself, and keeps a claim on gains wherever they accrue.</span></div>
+      <div class="layers">
+        <div class="layer"><span class="step">Inputs</span><h3>Power, chips, memory, land</h3><ul><li>Grid interconnects</li><li>GPUs, HBM, transmission</li></ul><div class="dur"><small>Durability of margin</small><div class="bar"><i style="width:30%"></i></div></div><p class="verdict">Bottlenecks. High margins draw new capital, and the scarcity moves on.</p></div>
+        <div class="layer"><span class="step">Genesis</span><h3>Labs &amp; models</h3><ul><li>Training, hosting, serving</li><li>Frontier and open weights</li></ul><div class="dur"><small>Durability of margin</small><div class="bar"><i style="width:15%"></i></div></div><p class="verdict">Commoditizes within months. Spending keeps rising regardless.</p></div>
+        <div class="layer height"><span class="step">Rails of diffusion</span><h3>The Commanding Heights</h3><ul><li>Distribution networks</li><li>Installed bases, “everything apps”</li><li>Payment rails, the Neo-Dollar</li></ul><div class="dur"><small>Durability of margin</small><div class="bar"><i style="width:88%"></i></div></div><p class="verdict">A lasting toll that grows with activity and with inflation.</p></div>
+        <div class="layer"><span class="step">The diffused economy</span><h3>Firms, workers, users</h3><ul><li>Old businesses, rebuilt</li><li>Billions of new users</li></ul><div class="dur"><small>Durability of margin</small><div class="bar"><i style="width:40%"></i></div></div><p class="verdict">Grows far larger than Genesis, and pays the toll.</p></div>
+      </div>
+    </div>
+    <p class="source">Schematic. This guide's rendering of the argument in the Overture and Parts I, IV and VI. The durability bars are qualitative, not measured.</p>
+  </figure>
+</section>
+
+<!-- iii. PARTS -->
+<section class="ch" id="parts">
+  <header class="ch-head col">
+    <div class="kicker"><span>iii</span><span>The essay, part by part</span><button class="share" data-id="parts">Copy link</button></div>
+    <h2>Eight parts, from the valley to the summit</h2>
+    <p class="brief">Choose a part for its argument, its key number and what it means for capital.</p>
+  </header>
+  <div class="explorer wide">
+    <svg class="profile" id="profile" viewBox="0 0 1000 210" role="group" aria-label="The eight parts of the essay along a rising profile"></svg>
+    <div class="tabs" role="tablist" id="tabs" aria-label="Parts"></div>
+    <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- iv. PATTERN -->
+<section class="ch" id="pattern">
+  <header class="ch-head col">
+    <div class="kicker"><span>iv</span><span>Inventors rarely keep the fortune</span><span class="from">Overture</span><a class="orig" href="https://commanding-heights.com/#overture" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="pattern">Copy link</button></div>
+    <h2>Born in one place, banked in another</h2>
+    <p class="brief">The essay's founding pattern, which it calls old enough to recite like a nursery rhyme.</p>
+  </header>
+  <div class="wide tblwrap">
+    <table class="ledger">
+      <thead><tr><th scope="col">Technology</th><th scope="col">Born</th><th scope="col"></th><th scope="col">Wealth settled</th><th scope="col">Why</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Printing press</th><td>Mainz</td><td class="arrow">→</td><td>Across Europe</td><td>Gutenberg sold every Bible before it was printed and still went insolvent.</td></tr>
+        <tr><th scope="row">Oil</th><td>Pennsylvania</td><td class="arrow">→</td><td>Cleveland, New York</td><td>Standard Oil was broken up for owning the pipelines, not for finding oil.</td></tr>
+        <tr><th scope="row">Cotton gin</th><td>Georgia</td><td class="arrow">→</td><td>Liverpool</td><td>The trade was financed and priced on the Liverpool exchange.</td></tr>
+        <tr><th scope="row">Transistor</th><td>Bell Labs, New Jersey</td><td class="arrow">→</td><td>Hsinchu, Cupertino</td><td>Antitrust forced cheap licensing. Others built trillions on it.</td></tr>
+        <tr><th scope="row">EUV lithography</th><td>The Netherlands</td><td class="arrow">→</td><td>Chip designers</td><td>The hardest machine ever built earns less than the file sent to the foundry.</td></tr>
+        <tr class="open"><th scope="row">Machine intelligence</th><td>San Francisco</td><td class="arrow">→</td><td><em>New York?</em></td><td>The labs own the model, and the model goes stale within months.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <figure class="col">
+    <div class="waffle-row">
+      <div class="waffle" id="waffle" role="img" aria-label="7 of 100 squares filled: the railroad sector captured 7 percent of the railroads' 1890 social return"></div>
+      <div style="display:grid;gap:.5rem"><span class="big">7%</span><p>The share of the railroads' 1890 social return captured by the railroad sector itself. The other ninety-three parts went to the economy the rails made possible.</p></div>
+    </div>
+    <p class="source">Hornbeck &amp; Rotemberg, “Growth Off the Rails,” <i>Journal of Political Economy</i> 132, no. 11 (2024), cited in Part I.</p>
+  </figure>
+</section>
+
+<!-- v. SCISSORS -->
+<section class="ch" id="scissors">
+  <header class="ch-head col">
+    <div class="kicker"><span>v</span><span>The scissors</span><span class="from">Overture · Part II</span><a class="orig" href="https://commanding-heights.com/#the-rate" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="scissors">Copy link</button></div>
+    <h2>Costs rise, prices collapse</h2>
+    <p class="brief">The lab's dilemma in a single chart.</p>
+  </header>
+  <div class="prose col"><p>Each new frontier model costs several times more to train than the last. Meanwhile, competition and distillation push the price of last year's capability toward the cost of compute. The authors ask who could expect trillions in spending to be repaid in twenty-dollar subscriptions. Their answer is that durable margin will not come from the model layer.</p></div>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Figure 1</span><b>Frontier training cost against the price of a fixed capability</b><span>Both indexed to 2023 = 1, on a log scale, projected at the rates the essay cites.</span></div>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Cost to train a frontier model, ×3.5 a year</span><span><i style="background:var(--s2)"></i>Price of a given capability, ÷13 a year</span></div>
+    <div class="chart" id="c-scissors"></div>
+    <p class="source">Epoch AI training-cost trend (3.5×/yr) and Epoch AI, “The Plunging Price of Thought” (~13×/yr, about 47% a quarter), both cited in the Overture and Part II. A smooth projection for illustration, not observed prices.</p>
+  </figure>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Figure 2</span><b>What frontier training runs actually cost</b><span>Estimated cloud cost of the final training run of 36 frontier models, 2016–2023, log scale.</span></div>
+    <div class="chart" id="c-train"></div>
+    <p class="source">Cottier et al., “The Rising Costs of Training Frontier AI Models,” arXiv:2405.21015v2, as redrawn in the essay (Part II). Trend fitted to the 36 runs here. The projection applies Epoch's revised 3.5× a year. The 2026 marker is the essay's report of a ~$1B run.</p>
+  </figure>
+  <div class="nums">
+    <div><b>$1B</b><span>A frontier training run in 2026, half a year ahead of forecast</span></div>
+    <div><b>$10B</b><span>Training runs the essay expects by 2028</span></div>
+    <div><b>~$800B</b><span>US hyperscaler capex in 2026, with over $1T expected in 2027</span></div>
+    <div><b>70% / 23%</b><span>Annual growth of hyperscaler capex vs. their operating cash flow</span></div>
+  </div>
+</section>
+
+<!-- vi. LINE -->
+<section class="ch" id="line">
+  <header class="ch-head col">
+    <div class="kicker"><span>vi</span><span>The Line</span><span class="from">Part II</span><a class="orig" href="https://commanding-heights.com/#part-ii" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="line">Copy link</button></div>
+    <h2>Four curves that are really one</h2>
+    <p class="brief">Capex, the index, training cost and capability. The authors say they have always been the same line.</p>
+  </header>
+  <div class="prose col"><p>In the last quarter of 2025, investment in information-processing equipment added more than three times the growth of the entire US economy. Retirement accounts ride on the index, and the index rides on a few AI companies. That makes a stall politically intolerable. The authors expect Washington to sustain the Line with state equity in the labs and, eventually, by capping Treasury yields, as the Fed did from 1942 to 1951. As AI debt spreads, its correlation with the rest of the economy approaches one. Two bonds with the same rating may then fail together.</p></div>
+  <details class="why"><summary>Why the authors think so <span>Washington capping its own borrowing costs</span></summary><div class="body">
+    <p>The precedent is the Second World War. In 1942 the Federal Reserve fixed Treasury bill yields at ⅜% and capped long-term yields at 2½%, buying whatever investors wouldn't. The arrangement lasted until the Treasury–Fed Accord of 1951.</p>
+    <p>The essay's reasoning: if the frontier becomes a matter of national defense, and the state ends up financing training costs that grow about 3.5× a year, its borrowing needs will push yields up. Once those yields start constraining the program, the authors expect Washington to suppress them again, even if Congress has to change the Fed's mandate to do it.</p>
+  </div></details>
+  <div class="two figs">
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 3</span><b>Who grew the economy, Q4 2025</b><span>Contribution to annualized US real GDP growth, percentage points.</span></div>
+      <div class="chart" id="c-gdp"></div>
+      <p class="source">BEA, NIPA tables 1.5.2 and 1.1.6, as charted in Part II. Information equipment added 3.2× total growth.</p>
+    </figure>
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 4</span><b>Capex as a share of GDP</b><span>Hyperscalers against the peak of the telecom boom.</span></div>
+      <div class="legend"><span><i style="background:var(--g1)"></i>Telecom, 2000</span><span><i style="background:var(--s1)"></i>Hyperscalers</span></div>
+      <div class="chart" id="c-capex"></div>
+      <p class="source">Apollo Global Management (Slok, August 2026), cited in Part II. The 2027 figure is a projection.</p>
+    </figure>
+  </div>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Figure 5</span><b>Capex has caught up with the cash</b><span>Quarterly operating cash flow and cash capital expenditure: Alphabet, Amazon, Meta, Microsoft and Oracle combined.</span></div>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Operating cash flow</span><span><i style="background:var(--s2)"></i>Capital expenditure</span></div>
+    <div class="chart" id="c-cash"></div>
+    <p class="source">Company filings, as published with the essay (Part II). Epoch AI projects capex growing about 70% a year against 23% for cash flow, crossing in late 2026. Beyond that point, the buildout must be financed from outside.</p>
+  </figure>
+</section>
+
+<!-- vii. POWERS -->
+<section class="ch" id="powers">
+  <header class="ch-head col">
+    <div class="kicker"><span>vii</span><span>Two sovereigns</span><span class="from">Part III</span><a class="orig" href="https://commanding-heights.com/#part-iii" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="powers">Copy link</button></div>
+    <h2>Intelligence splits into three tiers</h2>
+    <p class="brief">The best models stop being for sale, and nationalization happens without being called nationalization.</p>
+  </header>
+  <div class="tiers wide">
+    <div class="tier"><div><h3>Sovereign frontier</h3><span>Air-gapped and run like a defense program, in a lab that answers only to the state.</span></div><span class="who">Not for sale</span></div>
+    <div class="tier"><div><h3>Commercial frontier</h3><span>Premium American models, always priced against Chinese ones.</span></div><span class="who">US leads<br>~10.6× premium</span></div>
+    <div class="tier"><div><h3>Commodity intelligence</h3><span>Open-weight models priced near the cost of compute. They set the floor for everyone.</span></div><span class="who">China sets<br>the floor</span></div>
+  </div>
+  <figure class="wide figbox" id="c-arena-wrap">
+    <div class="fighead"><span class="label">Figure 6</span><b>The premium, under permanent audit</b><span>Arena Agent Mode, October 21, 2026: how much a model improves agent outcomes against its median cost per task. Move the bar to see what the cheapest model from each country costs to clear it.</span></div>
+    <div class="legend"><span><i style="background:var(--s1)"></i>US model</span><span><i style="background:var(--s2)"></i>Chinese model</span><span><i style="background:var(--g2)"></i>Unnamed by Arena</span></div>
+    <label class="slider" for="arena-t"><span>Minimum net improvement</span><input type="range" id="arena-t" min="-4.6" max="20.9" step="0.1" value="4"></label>
+    <p class="readout" id="arena-out" aria-live="polite"></p>
+    <div class="chart" id="c-arena"></div>
+    <p class="source">Arena, “Agent Arena: Overall — Pareto Frontier,” accessed October 21, 2026, as published with the essay (Part III). The essay's September snapshot put the premium at 10.6× at a 4% bar. The point is that the gap is now visible, priced and audited by every buyer.</p>
+  </figure>
+  <div class="prose col"><p>Why would China give its models away? Look at where each country keeps its savings. Chinese households hold their wealth in housing and bank deposits, so the party-state has little reason to defend high valuations for its labs. American retirements depend on the stock market, which now depends on AI labs. Cheap open models from China therefore hit the American financing model directly, and keeping the frontier funded may fall to the American state.</p></div>
+  <details class="why"><summary>Why the authors think so <span>Nationalization without the word</span></summary><div class="body">
+    <p>The labs need things only a state can supply: permission to release their strongest models, predictable rules on foreign access, help with power and permits, financial certainty, and political legitimacy for gains that flow to few holders. A sovereign shareholder removes risks no private investor can.</p>
+    <ul><li><b>Tools short of seizure:</b> a single “golden share” (as in the 2025 U.S. Steel deal), procurement contracts, cost-plus programs, and licenses for frontier training runs.</li>
+    <li><b>Precedents:</b> Lockheed building Polaris for one customer; the Atomic Energy Commission taking over the Manhattan Project's labs in 1947.</li>
+    <li><b>China:</b> already there. Model developers register with the Cyberspace Administration and stay under continuous review.</li></ul>
+    <p>The likely result, in the essay's view, is a lab split in two under one roof: a commercial company that sells at whatever margin the Chinese floor allows, and a frontier lab with a direct line to the White House.</p>
+  </div></details>
+  <div class="two figs">
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 7</span><b>Where household wealth sits, 2022</b><span>Share of total household assets.</span></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>United States</span><span><i style="background:var(--s2)"></i>China</span></div>
+      <div class="chart" id="c-house"></div>
+      <p class="source">World Bank, <i>China Economic Update</i> (Dec. 2025); Federal Reserve, Financial Accounts B.101.h. Cited in Part III.</p>
+    </figure>
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 8</span><b>A decade of equity returns</b><span>Price return, Aug. 2016 – Aug. 2026, excluding dividends.</span></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>S&amp;P 500</span><span><i style="background:var(--s2)"></i>Shanghai Composite</span></div>
+      <div class="chart" id="c-index"></div>
+      <p class="source">Authors' calculations, Part III.</p>
+    </figure>
+  </div>
+</section>
+
+<!-- viii. NEO-DOLLAR -->
+<section class="ch" id="neo-dollar">
+  <header class="ch-head col">
+    <div class="kicker"><span>viii</span><span>The Neo-Dollar</span><span class="from">Part IV · Superscription</span><a class="orig" href="https://commanding-heights.com/#the-neo-dollar" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="neo-dollar">Copy link</button></div>
+    <h2>America's strongest AI asset is its currency</h2>
+    <p class="brief">“Whose is this image and superscription?” The coin, the authors suggest, still answers to Washington.</p>
+  </header>
+  <div class="prose col"><p>The essay follows one payment. Malena, a freelance designer in Buenos Aires, triples her client list with an AI model. Clients pay her in a dollar stablecoin she keeps because the peso loses a third of its value each year. The issuer holds Treasuries, so she is helping fund US debt without ever having had a US bank account.</p></div>
+  <figure class="wide">
+    <div class="flow">
+      <div><span class="k">Work</span><b>An AI-assisted job</b><span>A client in Austin pays for designs made on a phone in Argentina.</span></div>
+      <div><span class="k">Payment</span><b>Dollar stablecoin</b><span>Paid in USDT through an app. To her it is just money that holds its value.</span></div>
+      <div><span class="k">Saving</span><b>Escape from the peso</b><span>She withdraws what she needs each week and keeps the rest in dollars.</span></div>
+      <div><span class="k">Reserves</span><b>US Treasuries</b><span>The issuer's reserves are T-bills. Washington's debt gains a new buyer.</span></div>
+      <div class="toll"><span class="k">Toll</span><b>Owners of the rails</b><span>The app, router and payment stack each take a cut that rises with inflation.</span></div>
+    </div>
+    <p class="source">Narrative from the Overture and Part IV. Later, her clients replace her with a model trained partly on her own work, and the same rails earn again.</p>
+  </figure>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Figure 9</span><b>The dollar's share of reserves has slipped, and no rival has taken its place</b><span>Share of world foreign-exchange reserves by currency, quarterly, 1999 – Q2 2026.</span></div>
+    <div class="legend"><span><i style="background:var(--s1)"></i>US dollar</span><span><i style="background:var(--s2)"></i>Euro</span><span><i style="background:var(--g1)"></i>Renminbi</span></div>
+    <div class="chart" id="c-reserves"></div>
+    <p class="source">IMF COFER, as published with the essay (Overture). Renminbi reported from Q4 2016. The essay's point is that the reserve share understates the dollar: it is still on one side of 89% of all currency trades, and its use is growing fastest among individuals.</p>
+  </figure>
+  <div class="nums">
+    <div><b>56.7%</b><span>The dollar's share of world FX reserves, Q2 2026</span></div>
+    <div><b>89.2%</b><span>Share of currency trades with the dollar on one side</span></div>
+    <div><b>~70%</b><span>Share of global AI compute owned by five US hyperscalers</span></div>
+    <div><b>~5%</b><span>Share owned by Chinese firms, end of 2025</span></div>
+  </div>
+  <div class="prose col"><p>The second purpose of the Neo-Dollar is quieter. Beijing taxes savers by holding deposit rates down. Washington taxes them through inflation, and because the dollar is the world's money, part of that bill is paid abroad. A channel the economy must pass through earns revenue that rises with prices without needing matching investment. The authors see that as one more reason to own one.</p></div>
+  <details class="why"><summary>Why the authors think so <span>Exporting inflation</span></summary><div class="body">
+    <p>A reserve currency lets its issuer debase and share the cost with everyone abroad who holds it. Billions of people already save in dollars out of preference and habit, and stablecoins extend that to people no American bank would serve.</p>
+    <p>The stablecoin itself pays its holder no interest. The income on its Treasury reserves goes to the issuer, at rates Washington sets. The essay sets this beside older, more visible takings: FDR's 1933 gold order, and the paydown of war debt at rates below inflation after 1945. The new version is quieter, and it reaches Buenos Aires as easily as Boston.</p>
+  </div></details>
+</section>
+
+<!-- ix. K -->
+<section class="ch" id="k-shape">
+  <header class="ch-head col">
+    <div class="kicker"><span>ix</span><span>The widening K</span><span class="from">Part V · The World to Come</span><a class="orig" href="https://commanding-heights.com/#part-v" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="k-shape">Copy link</button></div>
+    <h2>The first K split owners from earners. The second splits the owners.</h2>
+  </header>
+  <div class="kgrid wide">
+    <div class="kcol up">
+      <h3>Upper arm <small>Captures the gains</small></h3>
+      <div class="kitem"><b>Owners of the rails.</b><p>Distribution, payments and installed bases that AI must pass through.</p></div>
+      <div class="kitem"><b>Operators paid like capital.</b><p>The few people who direct models, paid through acquihires and founder voting control.</p></div>
+      <div class="kitem"><b>Scarce luxuries.</b><p>Elite schools, artisanal tailoring, land in Wyoming and the Gulf. The authors' leading indicator is the Gulfstream order backlog.</p></div>
+      <div class="kitem"><b>The Guild.</b><p>Licensed professionals whose signature carries legal liability. Their protection is real, but it favors incumbents over new entrants.</p></div>
+    </div>
+    <div class="kcol">
+      <h3>Lower arm <small>Bears the cost</small></h3>
+      <div class="kitem"><b>The rich world's back office.</b><p>Offshore clerical and IT work in India and the Philippines is automated first.</p></div>
+      <div class="kitem"><b>The emigrant's route.</b><p>Destination countries restrict entry just as the displaced need it most.</p></div>
+      <div class="kitem"><b>Savers.</b><p>Anyone holding cash or fixed income loses to inflation.</p></div>
+      <div class="kitem"><b>The young.</b><p>Employment of 22–25-year-olds in AI-exposed US jobs is 19% below trend. Experienced peers show no gap.</p></div>
+    </div>
+  </div>
+  <div class="two figs">
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 10</span><b>One new job for every six graduates</b><span>India, engineering and technology, 2023–26.</span></div>
+      <div class="people" id="people" role="img" aria-label="Six figures, one highlighted: about one net new tech job per six graduates"></div>
+      <div class="nums" style="border-bottom:0;grid-template-columns:1fr 1fr"><div><b>833,808</b><span>Graduates, 2023–24</span></div><div><b>135,000</b><span>Net new tech jobs, FY2026</span></div></div>
+      <p class="source">Nasscom, <i>Strategic Review 2026</i>; Ministry of Education, AISHE 2023–24. Cited in Part V.</p>
+    </figure>
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 11</span><b>Profit up, people down</b><span>Tata Consultancy Services, indexed to FY2019 = 100. Dashed lines are a Goldman Sachs forecast.</span></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Operating profit</span><span><i style="background:var(--s2)"></i>Headcount</span></div>
+      <div class="chart" id="c-tcs"></div>
+      <p class="source">TCS, <i>Integrated Annual Report 2025–26</i>, excluding exceptionals; headcount at fiscal year-end. FY2027–30 forecasts from Goldman Sachs (June 2026). As published with the essay, Part V.</p>
+    </figure>
+  </div>
+  <blockquote class="story col">
+    <span class="who">Ravi, two months later</span>
+    <p>Two months after the riots began, Ravi's keycard stops working. A machine-drafted letter tells him his job has moved to the “agentic services tier.” He gets six months' severance, and the parent company's stock opens higher in New York. The letter does not mention that his months of approving agent output were the training data for his replacement. His government offers him reskilling, perhaps in mechanical or farm work.</p>
+  </blockquote>
+  <p class="paraphrase">Summarized from Part V.</p>
+  <details class="why"><summary>Why the authors think so <span>The emigration door closes</span></summary><div class="body">
+    <p>For poor countries, emigration was the release valve for an educated surplus. In January 2026 the EU and India signed a mobility pact promising up to 100,000 multi-year work permits. The essay doubts it survives: Britain, France and Germany all hold general elections within three years, with anti-migration parties strong in each.</p>
+    <p>The deeper reason is economic. As AI reduces demand for surplus labor, rich-country citizenship becomes more valuable and voters become less willing to share it. The authors note that an American passport already sells for $5 million and ask how generous anyone will be when it costs $50 million.</p>
+  </div></details>
+</section>
+
+<!-- x. TEST -->
+<section class="ch" id="test">
+  <header class="ch-head col">
+    <div class="kicker"><span>x</span><span>Height or bottleneck?</span><span class="from">Part VI</span><a class="orig" href="https://commanding-heights.com/#part-vi" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="test">Copy link</button></div>
+    <h2>A Height is not a bottleneck</h2>
+    <p class="brief">In 1922 Lenin let private trade back into Russia because the state still held “all the Commanding Heights.”</p>
+  </header>
+  <div class="prose col"><p>A bottleneck is a temporary shortage. A data center without a grid connection hands its margin to the power company until power is solved. Then the shortage moves to transmission, then to chips, and the margin moves with it. The authors call this endless cycle a “financialized Samsara.” A Height is different: it keeps a lasting share of the activity it enables, and that activity makes it stronger.</p></div>
+  <div class="two figs" style="align-items:start">
+    <div class="vs">
+      <div><h3>Bottleneck</h3><ul><li>Scarce for now</li><li>High margins draw new supply</li><li>The margin moves to the next shortage</li><li>Priced for the cycle</li></ul></div>
+      <div><h3>Commanding Height</h3><ul><li>Hard to route around</li><li>Its take grows with the economy above it</li><li>Its revenue rises with inflation without matching new investment</li><li>It survives regulators, local politics and the sovereign</li></ul></div>
+    </div>
+    <div class="tester" aria-labelledby="tester-h">
+      <div style="display:grid;gap:.25rem"><h3 id="tester-h">The five tests</h3><p class="fine">Tick each test a position passes, or load an example.</p></div>
+      <div class="presets" role="group" aria-label="Examples">
+        <button class="chip" data-preset="power">Grid hookup</button>
+        <button class="chip" data-preset="model">Frontier model</button>
+        <button class="chip" data-preset="data">Proprietary data</button>
+        <button class="chip" data-preset="guild">Licensed signature</button>
+        <button class="chip" data-preset="rails">Dollar payment rails</button>
+      </div>
+      <div class="qs">
+        <label class="qrow" for="q1"><input type="checkbox" id="q1"><div><b>Scarce</b><span>The next-best route around it is costly or slow.</span></div></label>
+        <label class="qrow" for="q2"><input type="checkbox" id="q2"><div><b>Controllable</b><span>Its owner can set its terms and price.</span></div></label>
+        <label class="qrow" for="q3"><input type="checkbox" id="q3"><div><b>Durable</b><span>New capital can't compete the margin away within a few years.</span></div></label>
+        <label class="qrow" for="q4"><input type="checkbox" id="q4"><div><b>Compounding</b><span>Its take grows as AI enlarges the economy, and with prices.</span></div></label>
+        <label class="qrow" for="q5"><input type="checkbox" id="q5"><div><b>Defensible</b><span>It can withstand regulators, local backlash and the state's claim.</span></div></label>
+      </div>
+      <div class="verdict" aria-live="polite"><div class="meter" id="meter"><i></i><i></i><i></i><i></i><i></i></div><div><b id="v-title"></b><span id="v-text"></span></div></div>
+      <p class="fine" id="preset-note"></p>
+    </div>
+  </div>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Heights of past eras</span><b>What a Commanding Height has looked like before</b><span>The examples the essay itself uses. Each was the toll everyone in its era had to pay.</span></div>
+    <div class="past">
+      <div><small>1906 · Oil</small><b>Standard Oil's pipelines</b><p>It didn't need to own the oil fields. Owning the pipelines made it, in Justice Holmes's words, master of the fields.</p><span class="toll">Toll on: moving every barrel</span></div>
+      <div><small>1917–22 · Revolution</small><b>Rail junctions &amp; telegraph</b><p>The Bolsheviks seized the junctions, radio stations and wires first. Holding them let Lenin allow private trade back in.</p><span class="toll">Toll on: every movement and message</span></div>
+      <div><small>1984 · Print</small><b>The dominant local paper</b><p>Buffett noted that even a third-rate paper earned superb returns, as long as it was the only one in town.</p><span class="toll">Toll on: every local ad</span></div>
+      <div><small>2004 · Internet</small><b>Google Ads</b><p>It took a lasting cut of the whole web economy and benefited from every dollar others spent building it.</p><span class="toll">Toll on: every query</span></div>
+    </div>
+    <p class="source">Overture (Standard Oil), Part VI (Lenin), Part VIII (newspapers, Google). The essay's intelligence-era candidate is redacted in the original.</p>
+  </figure>
+</section>
+
+<!-- xi. FIRM -->
+<section class="ch" id="firm">
+  <header class="ch-head col">
+    <div class="kicker"><span>xi</span><span>The fourth settlement</span><span class="from">Part VII · The Firm</span><a class="orig" href="https://commanding-heights.com/#part-vii" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="firm">Copy link</button></div>
+    <h2>Management dissolves. Operators become capital.</h2>
+    <p class="brief">Each era answers four questions: who supplies the capital, who decides, who does the work and who is owed.</p>
+  </header>
+  <div class="prose col"><p>The essay follows Guinness from a leased Dublin brewery in 1759 to a brand inside Diageo. Ronald Coase explained that firms exist because markets are costly to use. Intelligence lowers those costs and makes work legible, so labor leaves the firm. Offshoring was the rehearsal. What remains is a small group of operators, too valuable to pay as employees, who demand to be paid and governed like capital.</p></div>
+  <div class="wide tblwrap">
+    <table class="ledger settle">
+      <thead><tr><th scope="col">Settlement</th><th scope="col">Capital</th><th scope="col">Decisions</th><th scope="col">Work</th><th scope="col">Owed to</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Owner-operator<small>1700s – 1920s</small></th><td>The owner and family</td><td>The owner</td><td>Wage labor</td><td>The owner</td></tr>
+        <tr><th scope="row">Managerial<small>1930s – 1970s</small></th><td>Dispersed shareholders</td><td>Career managers</td><td>Lifetime employees with pensions</td><td>Managers and workers</td></tr>
+        <tr><th scope="row">Shareholder-disciplined<small>1980s – c. 2023</small></th><td>Institutions and buyout funds</td><td>Managers paid in stock</td><td>Outsourced and offshored vendors</td><td>Shareholders</td></tr>
+        <tr class="now"><th scope="row">Operators as capital<small>c. 2023 –</small></th><td colspan="2">Fused in a few operators</td><td>Models, plus licensed humans who carry the liability</td><td>The operators</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="nums">
+    <div><b>50.1%</b><span>Votes sought by Anthropic's seven co-founders, who hold about 14% of shares</span></div>
+    <div><b>~$15B</b><span>What Meta's Scale AI deal really bought: one operator, in the essay's reading</span></div>
+    <div><b>$17B</b><span>Nvidia's Groq deal, booked mainly as goodwill attributable to the workforce</span></div>
+    <div><b>325×</b><span>CEO pay over a typical worker's, 2025</span></div>
+  </div>
+</section>
+
+<!-- xii. ALLOCATOR -->
+<section class="ch" id="allocator">
+  <header class="ch-head col">
+    <div class="kicker"><span>xii</span><span>For the allocator</span><span class="from">Parts VII–VIII · Alpha and Omega</span><a class="orig" href="https://commanding-heights.com/#part-viii" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="allocator">Copy link</button></div>
+    <h2>Buy DoubleClick and Android, not Alphabet or Anthropic</h2>
+    <p class="brief">Investors make two mistakes: they hold the last era's Heights and finance this era's inventions.</p>
+  </header>
+  <div class="prose col"><p>The essay's investment conclusion is blunt. The safe compounders in most portfolios are this era's newspapers. The fashionable AI basket is stuck in Genesis, mistaking itself for a Height. Meanwhile the ten-year Treasury yield, at 5.17%, has broken above its long-run average of about 4.5% since 1871. The authors read that as the end of a forty-year bond bull market, which means no more help from falling rates. Returns will have to come from owning the right positions.</p></div>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Figure 12</span><b>The tailwind is gone</b><span>Long-term US bond yields, monthly, 1871 – 2026, against their 155-year average.</span></div>
+    <div class="chart" id="c-bonds"></div>
+    <p class="source">Shiller long-rate series and Federal Reserve GS10/DGS10, as published with the essay (Part VII). Earlier observations use historical bond proxies. The essay notes that each sustained break above the long-run average has begun a regime lasting decades.</p>
+  </figure>
+  <figure class="wide figbox">
+    <div class="fighead"><span class="label">Figure 13</span><b>Four places to own, one worth owning</b><span>Positions sorted by how lasting their margin is and how much of AI's spread they can toll.</span></div>
+    <div class="matrix-wrap">
+      <div class="matrix" id="matrix"></div>
+      <ol class="moves" aria-label="Moves for private capital">
+        <li><div><b>Buy and rebuild.</b><p>With most of the market at “estate-sale” prices, take old businesses private and rebuild them around models. The authors call this a new kind of private equity, the vehicle for spreading AI.</p></div></li>
+        <li><div><b>Sell the data, or be the environment.</b><p>Firms valued mainly for their data should sell. Labs will buy operating businesses to use as training environments, as Google did with Spirit Airlines' records.</p></div></li>
+        <li><div><b>Price operators as capital.</b><p>Pay the few people who matter with equity, voting control and acquihire-sized packages. The old pay bands won't keep them.</p></div></li>
+        <li><div><b>Choose the jurisdiction.</b><p>Law has become a product. Firms will pick the venue that lets them pay and govern operators freely.</p></div></li>
+      </ol>
+    </div>
+    <p class="source">Matrix and the four moves are this guide's synthesis of Parts VI–VIII. They are not the authors' framework, and their wording is paraphrased.</p>
+  </figure>
+  <div class="eras wide">
+    <div><small>The rail era</small><b>Pennsylvania Railroad</b><p>The world's most valuable company in 1912. Its workforce peaked in 1920, and in 1970 it filed what was then the largest bankruptcy in US history.</p></div>
+    <div><small>Print and search</small><b>Newspapers → Google Ads</b><p>Hearst tolled the spread of news, and Google took over that toll at far greater scale. Now the queries are leaving for AI agents.</p></div>
+    <div class="next"><small>The intelligence era</small><b><span class="redacted" aria-label="redacted">XXXXXXXXXXX</span></b><p>The essay blanks out its own candidate: a company trading at a dull multiple suited to the old world.</p></div>
+  </div>
+  <div class="two figs">
+    <figure class="figbox">
+      <div class="fighead"><span class="label">Figure 14</span><b>Even Buffett anchored to the old Height</b><span>Berkshire's newspapers, millions of dollars.</span></div>
+      <div class="chart" id="c-buffett"></div>
+      <p class="source">Berkshire Hathaway letters; Lee Enterprises (2020). Cited in Part VIII.</p>
+    </figure>
+    <figure class="figbox">
+      <div class="fighead"><span class="label">The closing instructions</span><b>Five questions for a portfolio review</b><span>Paraphrased from Part VIII.</span></div>
+      <ol class="instructions">
+        <li>Does intelligence open a new route around your holdings' tolls?</li>
+        <li>Are your steady compounders the newspapers of 1984?</li>
+        <li>Is your AI exposure a Height, or an invention still in Genesis?</li>
+        <li>Will you sell the old Heights while they still look like Heights?</li>
+        <li>Are your managers mandated to buy what comes next, or only what exists?</li>
+      </ol>
+    </figure>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="ch closing-ch" id="closing">
+  <header class="ch-head col">
+    <div class="kicker"><span>Closing</span><a class="orig" href="https://commanding-heights.com/#closing" target="_blank" rel="noopener">↗ in the original</a><button class="share" data-id="closing">Copy link</button></div>
+    <h2>Out from the garden, never to return</h2>
+  </header>
+  <div class="tale col">
+    <p>The essay ends where it began, with a K that opens at every level. Ravi's daughter can reach the machine whenever she likes. She might reject it, or live the same life faster, or become something new. Perhaps the many in the middle will live long, content lives. The few who see and act, the authors write, will become a new shape of their own, and the rest of us their subjects.</p>
+    <p>Then the frame widens. Technology has a direction, from cuneiform to the assembly line to the first atomic test in the New Mexico desert, and now to machine intelligence. They ask whether its makers felt what every parent knows: that the child may surpass them. We are heading, they write, toward a city at the edge of sight. They don't say when we will arrive, only that the road passes through older and harder human conditions before something entirely different.</p>
+    <p>Their last instruction is to accept that the world as you knew it has already ended, and to prepare for what comes after.</p>
+  </div>
+  <p class="paraphrase">Summarized from the essay's Closing. Read it in full in the original; its force is in the authors' own words.</p>
+  <div class="orn" aria-hidden="true">* * *</div>
+</section>
+
+<!-- xiii. GLOSSARY -->
+<section class="ch" id="glossary">
+  <header class="ch-head col">
+    <div class="kicker"><span>Appendix</span><span>Glossary &amp; open questions</span><button class="share" data-id="glossary">Copy link</button></div>
+    <h2>The essay's vocabulary</h2>
+  </header>
+  <dl class="gloss wide">
+    <div><dt>Genesis</dt><dd>Everything that designs, trains, hosts and serves models. The place AI is born, and in the essay's view not where its value ends up.</dd></div>
+    <div><dt>The Line</dt><dd>AI capex, stock indexes, training costs and capability, read as a single rising curve the US economy now depends on.</dd></div>
+    <div><dt>The Artifact</dt><dd>A trained model: billions to make, cheap to copy, and quickly distilled into commodity models.</dd></div>
+    <div><dt>Distillation</dt><dd>Training a cheaper model on a stronger one's outputs. It is how the frontier leaks into the commodity tier.</dd></div>
+    <div><dt>Sovereign frontier</dt><dd>The best models, withheld from the market and run for the state like a weapons program.</dd></div>
+    <div><dt>Peculiar labs</dt><dd>After England's “royal peculiars,” which answered to the Crown alone. Here, labs that answer only to the state.</dd></div>
+    <div><dt>Sinomodernity</dt><dd>China's form of modern governance. It can publish open models to set a global price floor while holding strategic ones in reserve.</dd></div>
+    <div><dt>Neo-Dollar</dt><dd>The digital, stablecoin dollar carried by apps to people outside the US banking system, together with the firms that carry it.</dd></div>
+    <div><dt>Superscription</dt><dd>The inscription on a coin, from the Gospel “render unto Caesar.” Shorthand for whose authority a currency carries.</dd></div>
+    <div><dt>Exarchate</dt><dd>Any country other than the US or China: nominally independent, but dependent on one superpower's technology.</dd></div>
+    <div><dt>Crossing</dt><dd>A point activity must pass through. Margin pools there, though most crossings are temporary.</dd></div>
+    <div><dt>Settlement</dt><dd>One era's arrangement of who supplies the capital, makes the decisions, does the work and is owed.</dd></div>
+    <div><dt>K-shape</dt><dd>An economy in which one group rises as another falls. The essay expects the split to widen at every level.</dd></div>
+    <div><dt>The Guild</dt><dd>Licensed professionals kept on payroll because a liable human must sign for the work.</dd></div>
+    <div><dt>Commanding Heights</dt><dd>Scarce, controllable positions that durably capture the gains of increasingly capable, widely used AI.</dd></div>
+  </dl>
+  <div class="col" style="display:grid;gap:1rem;margin-top:1.5rem">
+    <div class="kicker" style="justify-content:flex-start"><span>Questions to argue about</span><span class="from">from this guide, not the authors</span></div>
+    <ol class="qlist">
+      <li>If models become commodities, which distribution channels can AI itself not route around?</li>
+      <li>Does the Neo-Dollar thesis survive strict stablecoin regulation, or a rival digital currency?</li>
+      <li>How long will Beijing keep publishing near-frontier open models, and what would make it stop?</li>
+      <li>Is quiet nationalization of the labs more likely than open public ownership?</li>
+      <li>What line in an earnings report would reveal a Height the market has not yet priced?</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer class="colophon">
+  <div class="orn" aria-hidden="true">* * *</div>
+  <p>Source: Will Manidis and Joe Roberts, <a href="https://commanding-heights.com/" target="_blank" rel="noopener"><i>The Commanding Heights</i></a>, October 29, 2026. © the authors.<br>The original has the full argument, 153 notes and 27 figures.</p>
+  <p class="notice" role="note"><b>About this companion</b>An unofficial, independent companion prepared by Rhet Porter. It is not the original essay. It is not affiliated with, written, reviewed or endorsed by Will Manidis, Joe Roberts or anyone associated with them. Summaries are paraphrased. The frameworks marked as this guide's synthesis, the "for capital" notes, the examples and the open questions are my own. Any misrepresentation or error is mine alone, Rhet Porter's, and should not be attributed to the authors.</p>
+  <p class="fine">Quotations are brief and attributed. Charts are redrawn from data published with the essay, with sources beneath each one. Guide text CC BY 4.0, code MIT.</p>
+  <a class="backtop" href="#top">Return to the top</a>
+</footer>
+
+<script>
+(function(){
+"use strict";
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const NS="http://www.w3.org/2000/svg";
+function el(t,a={},p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function txt(p,x,y,s,a={}){const t=el("text",Object.assign({x,y},a),p);t.textContent=s;return t}
+
+/* tooltip */
+const tip=$("#tip");
+function moveTip(e){const pad=14;let x=e.clientX+pad,y=e.clientY+pad;const r=tip.getBoundingClientRect();if(x+r.width>innerWidth-8)x=e.clientX-r.width-pad;if(y+r.height>innerHeight-8)y=e.clientY-r.height-pad;tip.style.left=x+"px";tip.style.top=y+"px"}
+function hover(n,html){n.setAttribute("tabindex","0");n.addEventListener("pointerenter",e=>{tip.innerHTML=html;tip.classList.add("on");moveTip(e)});n.addEventListener("pointermove",moveTip);n.addEventListener("pointerleave",()=>tip.classList.remove("on"));n.addEventListener("focus",()=>{tip.innerHTML=html;tip.classList.add("on");const r=n.getBoundingClientRect();moveTip({clientX:r.right,clientY:r.top})});n.addEventListener("blur",()=>tip.classList.remove("on"))}
+
+/* copy link */
+$$(".share").forEach(b=>b.addEventListener("click",async()=>{const u=location.href.split("#")[0]+"#"+b.dataset.id;try{await navigator.clipboard.writeText(u);b.textContent="Copied"}catch(e){b.textContent="#"+b.dataset.id}setTimeout(()=>b.textContent="Copy link",1600)}));
+
+/* waffle & people */
+const wf=$("#waffle");for(let i=0;i<100;i++){const c=document.createElement("i");if(i<7)c.className="on";wf.appendChild(c)}
+const ppl=$("#people");for(let i=0;i<6;i++)ppl.insertAdjacentHTML("beforeend",`<svg viewBox="0 0 30 64" aria-hidden="true"><circle cx="15" cy="9" r="7.5" fill="${i===0?'var(--accent)':'var(--g2)'}"/><rect x="4" y="20" width="22" height="44" rx="5" fill="${i===0?'var(--accent)':'var(--g2)'}"/></svg>`);
+
+/* tester */
+const NOTE="Examples are this guide's reading of the essay's logic, not the authors' picks.";
+const presets={
+  power:{q:[1,1,0,0,0],n:"Grid hookup: scarce and pricey today. Solve power and the margin jumps to transmission, then chips, while ratepayer politics caps it."},
+  model:{q:[1,0,0,0,0],n:"Frontier model: scarce for months, then distilled. The best ones are claimed by the state. Genesis, not a Height."},
+  data:{q:[1,1,0,0,0],n:"Proprietary data: often worth one sale to a lab and little after. The essay suggests firms valued mainly for their data should sell."},
+  guild:{q:[1,1,1,0,1],n:"Licensed signature: protected by law and liability, but it grows slowly. That is the Guild, a durable but modest toll."},
+  rails:{q:[1,1,1,1,1],n:"Dollar payment rails: a toll on every transaction that grows with activity and inflation, aligned with the sovereign. The essay's model of a Height."}
+};
+const qs=[1,2,3,4,5].map(i=>$("#q"+i));
+function verdict(){const n=qs.filter(q=>q.checked).length;$$("#meter i").forEach((m,i)=>m.classList.toggle("on",i<n));
+  const v=n===5?["A Commanding Height","Passes all five. The authors' advice: own it before it is priced as one."]:n>=3?["A toll at risk","Real margin, but at least one test fails. That is where competitors or the state will press."]:n>=1?["A bottleneck","A passing scarcity. Capital will arrive and the margin will move on."]:["Open ground","Tick the tests above, or choose an example."];
+  $("#v-title").textContent=v[0];$("#v-text").textContent=v[1]}
+qs.forEach(q=>q.addEventListener("change",()=>{$$(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));$("#preset-note").textContent=NOTE;verdict()}));
+$$(".chip").forEach(c=>{c.setAttribute("aria-pressed","false");c.addEventListener("click",()=>{const p=presets[c.dataset.preset];qs.forEach((q,i)=>q.checked=!!p.q[i]);$$(".chip").forEach(x=>x.setAttribute("aria-pressed",String(x===c)));$("#preset-note").textContent=p.n+" "+NOTE;verdict()})});
+$("#preset-note").textContent=NOTE;verdict();
+
+/* parts explorer */
+const parts=[
+ {id:"I",t:"Genesis",j:"#scissors",s:"The labs, clouds, chips and power that make and serve models. Genesis keeps spending even as returns fall, because falling behind forfeits everything already spent.",
+  c:["Today's revenue comes from early adopters plugging AI into existing workflows, much as the first locomotives hauled coal on private lines.","What is rational for each lab can destroy capital in aggregate. Competition, not return on capital, drives the spending.","As with the railroads, the larger fortunes are made outside Genesis."],
+  n:"7%",nt:"The railroads' own share of their 1890 social return.",k:"Strong revenue is not durable margin. Underwrite Genesis assets as infrastructure that may be written off, not as tollbooths."},
+ {id:"II",t:"The Line",j:"#line",s:"AI spending, stock prices and capability rise together as one line under US growth, household wealth and credit. A stall would be politically intolerable, so the state will sustain it.",
+  c:["Training costs rise about 3.5× a year, so $10B runs are expected by 2028.","Hyperscaler capex outruns cash flow around 2027. Credit and retirement money fill the gap.","Expect state equity in labs and, eventually, capped Treasury yields as in 1942."],
+  n:"3.2×",nt:"Information equipment's contribution to Q4 2025 GDP growth, relative to total growth.",k:"AI credit is becoming correlated with everything. Same-rated bonds may fail together, and recoveries will disappoint."},
+ {id:"III",t:"Principalities & Powers",j:"#powers",s:"Only America and China can keep building frontier models. Intelligence splits into commodity, commercial and sovereign tiers, and states take control of labs without formal nationalization.",
+  c:["China can publish cheap open models because its households aren't heavily invested in equities.","American commercial premiums face permanent price audit against Chinese models.","Labs become “peculiar” institutions answering to the state, like Lockheed on Polaris."],
+  n:"47% / 34%",nt:"Chinese wealth sits in housing (47%). American wealth sits in equities (34%).",k:"Expect a golden share, cost-plus frontier programs, and a lab split into a commercial arm and a sovereign arm."},
+ {id:"IV",t:"Superscription",j:"#neo-dollar",s:"America's greatest AI-era power is the dollar. Stablecoins carried by apps create global demand for dollars. Washington shares its costs with the world through inflation, and the owners of the rails collect a toll that rises with prices.",
+  c:["Foreign users who swap their currency for dollar tokens indirectly hold Treasuries.","Even Chinese models can be paid for in dollar stablecoins through American routers.","Inflation is the invisible wealth tax, and it reaches Buenos Aires as easily as Boston."],
+  n:"89.2%",nt:"Share of global currency trades with the dollar on one side.",k:"The essay prizes revenue that rises with inflation without matching new capex. Look for channels where that is true."},
+ {id:"V",t:"The World to Come",j:"#k-shape",s:"Automation begins in the rich world's offshore back office, turning development jobs into margin booked in New York. Licensing protects rich-country workers, while others lose both jobs and the option to emigrate.",
+  c:["India: one net new tech job for every six graduates.","Abandoned office parks may become scam centers, as in parts of Southeast Asia.","Watch the Gulfstream backlog, not Main Street. GDP misses most of this shift."],
+  n:"−19%",nt:"Employment of young US workers in AI-exposed jobs relative to trend.",k:"Scarce goods consumed by the new owners (schools, land, jets, top managers) see demand outrun supply."},
+ {id:"VI",t:"The Commanding Heights",j:"#test",s:"Scarce, controllable positions that durably capture the gains of AI as it spreads. Unlike a bottleneck, a Height keeps a lasting share of the activity it enables, and that activity makes it stronger.",
+  c:["Lenin, 1922: market activity is allowed because the state holds the key industries.","Margin jumps from crossing to crossing: power, then transmission, then chips.","The final test is political: who else can claim your rent?"],
+  n:"1922",nt:"“We hold all the Commanding Heights.” Lenin to the Comintern.",k:"Most positions marketed as moats are bottlenecks. Test for durability and political claims before paying a Height's multiple."},
+ {id:"VII",t:"The Firm",j:"#firm",s:"Firms have passed through three settlements: owner-operator, managerial and shareholder-disciplined. Intelligence ends the third. Next come small firms of operators, paid like capital, directing models.",
+  c:["Venture turns into trading. Private equity becomes the engine that spreads AI through old companies.","Labs buy whole businesses as training environments and come to resemble chaebols.","Firms shop for jurisdiction the way they shop for any product."],
+  n:"50.1%",nt:"The vote Anthropic's founders sought, holding about 14% of shares.",k:"Underwrite the operators, not the org chart. Retention structures are now part of the thesis."},
+ {id:"VIII",t:"Alpha & Omega",j:"#allocator",s:"Holding the last era's Heights and funding this era's inventions both miss what comes next. Only rebuilt portfolios, with re-mandated managers, can claim the new Heights while they are still cheap.",
+  c:["Buy DoubleClick and Android, not Alphabet or Anthropic.","The Pennsylvania Railroad went from the world's largest company to bankruptcy in fifty-eight years.","Sell old Heights while they remain so."],
+  n:"$344M → $140M",nt:"Berkshire's newspapers: total bought through 2012, sold in 2020.",k:"Reconstruct the portfolio, not just the allocation. A star manager bound to an old mandate cannot buy the new Heights."}
+];
+const svg=$("#profile");
+const pts=[[70,170],[185,150],[300,128],[415,104],[530,78],[650,34],[775,82],[900,128]];
+function profile(){
+  svg.innerHTML="";
+  const d="M0,200 C60,192 120,178 185,160 S300,130 415,108 S560,58 650,40 S760,80 820,98 S940,150 1000,162";
+  for(let k=5;k>=1;k--)el("path",{d:d.replace(/(\d+),(\d+)/g,(m,x,y)=>x+","+(+y+k*7)),fill:"none",stroke:"var(--hair)","stroke-width":1},svg);
+  el("path",{d,fill:"none",stroke:"var(--ink)","stroke-width":1.2},svg);
+  parts.forEach((p,i)=>{
+    const g=el("g",{class:"stop",tabindex:"0",role:"button","aria-label":"Part "+p.id+", "+p.t},svg);
+    const [x,y]=pts[i];
+    el("line",{x1:x,x2:x,y1:y,y2:y+(200-y)*0.0+18,stroke:"var(--rule)","stroke-width":1},g);
+    el("circle",{cx:x,cy:y,r:22,class:"hit"},g);
+    el("circle",{cx:x,cy:y,r:13,fill:"none",stroke:"transparent","stroke-width":1.5,class:"ring"},g);
+    el("circle",{cx:x,cy:y,r:i===5?7.5:5.5,class:"dot"},g);
+    txt(g,x,y-16,p.id,{"text-anchor":"middle"});
+    if(i===5)el("path",{d:`M${x},${y-46} l6,10 h-12 z`,fill:"var(--accent)"},g);
+    g.addEventListener("click",()=>sel(i));g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();sel(i)}});
+  });
+  txt(svg,6,200,"Genesis",{style:"font-family:var(--serif);font-style:italic;font-size:15px",fill:"var(--mute)"});
+  txt(svg,994,200,"where value settles",{style:"font-family:var(--serif);font-style:italic;font-size:15px",fill:"var(--mute)","text-anchor":"end"});
+}
+const tabs=$("#tabs");parts.forEach((p,i)=>{const b=document.createElement("button");b.setAttribute("role","tab");b.textContent=p.id;b.title=p.t;b.addEventListener("click",()=>sel(i));tabs.appendChild(b)});
+function sel(i){const p=parts[i];
+  $$(".stop",svg).forEach((g,k)=>g.classList.toggle("active",k===i));$$("button",tabs).forEach((b,k)=>b.setAttribute("aria-selected",String(k===i)));
+  $("#panel").innerHTML=`<div style="display:grid;gap:.9rem;min-width:0"><div class="kicker" style="justify-content:flex-start"><span>Part ${p.id}</span></div><h3>${p.t}</h3><p class="sum">${p.s}</p><ul>${p.c.map(x=>`<li>${x}</li>`).join("")}</ul><span style="display:flex;gap:1.4rem;flex-wrap:wrap"><a class="jump" href="${p.j}">See the evidence →</a><a class="jump" href="https://commanding-heights.com/#part-${p.id.toLowerCase()}" target="_blank" rel="noopener">Read Part ${p.id} in the original ↗</a></span></div>
+  <div class="side"><div class="num"><b>${p.n}</b><span>${p.nt}</span></div><div class="cap"><small>For capital · guide’s note</small><p>${p.k}</p></div></div>`}
+profile();sel(5);
+
+/* table labels for the stacked phone layout */
+document.querySelectorAll(".settle").forEach(t=>{const h=[...t.querySelectorAll("thead th")].map(x=>x.textContent);t.querySelectorAll("tbody tr").forEach(tr=>{let i=1;tr.querySelectorAll("td").forEach(td=>{td.dataset.label=td.colSpan>1?"Capital & decisions":h[i];i+=td.colSpan})})});
+/* charts */
+function frame(id,W,H,aria){const h=$(id);h.innerHTML="";const s=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":aria},h);return s}
+function table(id,head,rows){const d=document.createElement("details");d.className="data";d.innerHTML=`<summary>Show the data</summary><table><thead><tr>${head.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;$(id).appendChild(d)}
+
+(function scissors(){
+  const W=860,H=380,m={l:96,r:118,t:24,b:40};const s=frame("#c-scissors",W,H,"Log-scale line chart, 2023 to 2028: the training cost index rises from 1 to 525 while the capability price index falls from 1 to about 1 in 371,000.");
+  const yrs=[2023,2024,2025,2026,2027,2028],up=yrs.map((y,i)=>Math.pow(3.5,i)),dn=yrs.map((y,i)=>Math.pow(13,-i));
+  const x=y=>m.l+(y-2023)/5*(W-m.l-m.r),y=v=>m.t+(3-Math.log10(v))/9*(H-m.t-m.b);
+  for(let e=3;e>=-6;e--)el("line",{x1:m.l,x2:W-m.r,y1:y(10**e),y2:y(10**e),class:"grid"},s);
+  [[1000,"1,000×"],[1,"1× (2023)"],[1e-3,"1/1,000"],[1e-6,"1/1,000,000"]].forEach(([v,l])=>txt(s,m.l-10,y(v)+4,l,{"text-anchor":"end"}));
+  el("line",{x1:m.l,x2:W-m.r,y1:H-m.b,y2:H-m.b,class:"axis"},s);
+  yrs.forEach(v=>txt(s,x(v),H-14,String(v),{"text-anchor":"middle"}));
+  el("line",{x1:x(2026),x2:x(2026),y1:m.t,y2:H-m.b,stroke:"var(--ink)","stroke-opacity":".35","stroke-dasharray":"2 4"},s);
+  txt(s,x(2026)+7,m.t+10,"Essay published",{class:"lbl2","font-style":"italic"});
+  const line=(a,c)=>el("polyline",{points:a.map((v,i)=>x(yrs[i])+","+y(v)).join(" "),fill:"none",stroke:c,"stroke-width":2,"stroke-linejoin":"round","stroke-linecap":"round"},s);
+  line(up,"var(--s1)");line(dn,"var(--s2)");
+  const f=v=>v>=1?(Math.round(v*10)/10).toLocaleString()+"×":"1/"+Math.round(1/v).toLocaleString();
+  [[up,"var(--s1)","Training cost"],[dn,"var(--s2)","Price of capability"]].forEach(([a,c,n])=>a.forEach((v,i)=>{el("circle",{cx:x(yrs[i]),cy:y(v),r:4,fill:c,stroke:"var(--paper)","stroke-width":2},s);hover(el("circle",{cx:x(yrs[i]),cy:y(v),r:15,class:"hit"},s),`<b>${n}, ${yrs[i]}</b><br>${f(v)} the 2023 level`)}));
+  txt(s,W-m.r+12,y(up[5])+5,"525×",{class:"lbl"});txt(s,W-m.r+12,y(up[5])+22,"cost",{class:"lbl2"});
+  txt(s,W-m.r+12,y(dn[5])+5,"1/371,293",{class:"lbl"});txt(s,W-m.r+12,y(dn[5])+22,"price",{class:"lbl2"});
+  table("#c-scissors",["Year","Training cost","Capability price"],yrs.map((v,i)=>[v,f(up[i]),f(dn[i])]));
+})();
+
+function hbars(id,rows,o){
+  const W=440,rowH=58,m={l:2,r:o.mr||92,t:4,b:o.zero?24:4},H=m.t+m.b+rows.length*rowH;const s=frame(id,W,H,o.aria);
+  let mn=Math.min(0,...rows.map(r=>r.v));const mx=Math.max(...rows.map(r=>r.v));if(mn<0)mn-=(mx-mn)*.32;
+  const x=v=>m.l+(v-mn)/(mx-mn)*(W-m.l-m.r);
+  el("line",{x1:x(0),x2:x(0),y1:m.t+18,y2:H-m.b+2,class:"axis"},s);
+  rows.forEach((r,i)=>{const top=m.t+i*rowH,y0=top+23,bh=20,x0=Math.min(x(0),x(r.v)),w=Math.max(2,Math.abs(x(r.v)-x(0)));
+    txt(s,m.l,top+15,r.l,{class:"lbl2"});
+    if(r.h){const pid="p"+id.slice(1)+i,p=el("pattern",{id:pid,width:6,height:6,patternUnits:"userSpaceOnUse",patternTransform:"rotate(45)"},s);el("rect",{width:6,height:6,fill:"var(--paper)"},p);el("line",{x1:0,y1:0,x2:0,y2:6,stroke:r.c,"stroke-width":2.5},p);el("rect",{x:x0,y:y0,width:w,height:bh,rx:2,fill:`url(#${pid})`,stroke:r.c,"stroke-width":1.2},s)}
+    else el("rect",{x:x0,y:y0,width:w,height:bh,rx:2,fill:r.c},s);
+    txt(s,r.v>=0?x(r.v)+8:x(r.v)-8,y0+bh/2+5,r.t,{"text-anchor":r.v>=0?"start":"end",class:"lbl"});
+    hover(el("rect",{x:0,y:top,width:W,height:rowH,class:"hit"},s),`<b>${r.l}</b><br>${r.tip||r.t}`)});
+  if(o.zero)txt(s,x(0),H-6,"0",{"text-anchor":"middle"});
+  table(id,["Item","Value"],rows.map(r=>[r.l,r.t]));
+}
+hbars("#c-gdp",[{l:"Information equipment",v:.67,t:"+0.67 pts",c:"var(--s1)"},{l:"Everything else",v:-.46,t:"−0.46 pts",c:"var(--g1)"},{l:"Real GDP growth",v:.21,t:"+0.21%",c:"var(--ink)"}],{zero:true,mr:96,aria:"Information equipment added 0.67 points, everything else subtracted 0.46, and GDP grew 0.21 percent."});
+hbars("#c-capex",[{l:"Telecom, 2000 peak",v:1.2,t:"1.2%",c:"var(--g1)"},{l:"Hyperscalers, 2019",v:.3,t:"0.3%",c:"var(--s1)"},{l:"Hyperscalers, 2025",v:1.4,t:"1.4%",c:"var(--s1)"},{l:"Hyperscalers, 2027 (projected)",v:3,t:"~3%",c:"var(--s1)",h:true,tip:"Projected about 3% of GDP by 2027"}],{mr:56,aria:"Capex as share of GDP: telecom peak 1.2%, hyperscalers 0.3% in 2019, 1.4% in 2025, projected about 3% in 2027."});
+hbars("#c-index",[{l:"S&P 500",v:254,t:"+254%",c:"var(--s1)"},{l:"Shanghai Composite",v:29.2,t:"+29%",c:"var(--s2)"}],{mr:70,aria:"S&P 500 up 254 percent; Shanghai Composite up 29 percent over ten years."});
+hbars("#c-buffett",[{l:"Bought, through 2012",v:344,t:"$344M",c:"var(--g1)"},{l:"Sold, 2020",v:140,t:"$140M",c:"var(--s2)",tip:"Sold to Lee Enterprises for $140M, less than The Buffalo News alone cost in 1977, adjusted for inflation"}],{mr:70,aria:"Berkshire spent 344 million dollars on newspapers and sold them for 140 million in 2020."});
+
+(function house(){
+  const rows=[["Housing",27.5,47.4],["Cash & deposits",9.2,24.7],["Equity, business & funds",34.4,15.4]];
+  const W=440,rowH=66,m={l:8,r:46,t:4,b:30},H=m.t+m.b+rows.length*rowH;const s=frame("#c-house",W,H,"Household asset shares. Housing: US 27.5%, China 47.4%. Cash: US 9.2%, China 24.7%. Equity: US 34.4%, China 15.4%.");
+  const x=v=>m.l+v/50*(W-m.l-m.r);
+  [0,10,20,30,40,50].forEach(v=>{el("line",{x1:x(v),x2:x(v),y1:m.t,y2:H-m.b,class:"grid"},s);txt(s,x(v),H-10,v+"%",{"text-anchor":"middle"})});
+  rows.forEach((r,i)=>{const cy=m.t+i*rowH+44;txt(s,m.l,m.t+i*rowH+16,r[0],{class:"lbl"});
+    el("line",{x1:x(Math.min(r[1],r[2])),x2:x(Math.max(r[1],r[2])),y1:cy,y2:cy,stroke:"var(--g1)","stroke-width":1.2},s);
+    [[r[1],"var(--s1)","United States",r[1]<r[2]],[r[2],"var(--s2)","China",r[2]<r[1]]].forEach(([v,c,n,left])=>{el("circle",{cx:x(v),cy,r:6.5,fill:c,stroke:"var(--paper)","stroke-width":2},s);txt(s,x(v)+(left?-12:12),cy+5,v+"%",{"text-anchor":left?"end":"start",class:"lbl2"});hover(el("circle",{cx:x(v),cy,r:16,class:"hit"},s),`<b>${n}: ${r[0]}</b><br>${v}% of household assets`)})});
+  table("#c-house",["Asset","United States","China"],rows.map(r=>[r[0],r[1]+"%",r[2]+"%"]));
+})();
+
+(function matrix(){
+  const W=520,H=470,m={l:44,r:12,t:12,b:44};const host=$("#matrix");host.innerHTML="";
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":"Two-by-two matrix. Horizontal axis: share of AI's spread a position can toll. Vertical axis: durability of its margin. Bottom left, Genesis inventions. Bottom right, bottlenecks. Top left, old Heights. Top right, the new Commanding Heights."},host);
+  const cx=(W+m.l-m.r)/2,cy=(H+m.t-m.b)/2,w=(W-m.l-m.r)/2,h=(H-m.t-m.b)/2;
+  const q=[{x:m.l,y:m.t,t:"Old Heights",s:["Newspapers in 1984,","search ads, legacy","compounders"],note:"Durable until AI routes around them",fill:"var(--wash)",c:"var(--ink)"},
+           {x:cx,y:m.t,t:"Commanding Heights",s:["Distribution, installed","bases, payment rails"],note:"Not yet priced as such",fill:"var(--accent-wash)",c:"var(--accent)"},
+           {x:m.l,y:cy,t:"Genesis inventions",s:["The model layer,","thin wrappers"],note:"Commoditize within months",fill:"var(--paper)",c:"var(--ink)"},
+           {x:cx,y:cy,t:"Bottlenecks",s:["Power hookups, chips,","memory, transmission"],note:"The margin moves on",fill:"var(--paper)",c:"var(--ink)"}];
+  q.forEach(o=>{el("rect",{x:o.x,y:o.y,width:w,height:h,fill:o.fill,stroke:"var(--hair)"},s);
+    txt(s,o.x+16,o.y+30,o.t,{fill:o.c,style:"font-family:var(--serif);font-size:21px"});
+    o.s.forEach((l,i)=>txt(s,o.x+16,o.y+56+i*19,l,{fill:"var(--slate)",style:"font-family:var(--sans);font-size:14px"}));
+    txt(s,o.x+16,o.y+h-16,o.note,{fill:o.c===`var(--accent)`?"var(--accent)":"var(--mute)",style:"font-family:var(--serif);font-style:italic;font-size:15px"})});
+  el("rect",{x:cx,y:m.t,width:w,height:h,fill:"none",stroke:"var(--accent)","stroke-width":1.5},s);
+  const mk=el("marker",{id:"ah",viewBox:"0 0 10 10",refX:8,refY:5,markerWidth:7,markerHeight:7,orient:"auto"},el("defs",{},s));el("path",{d:"M0,0 L10,5 L0,10 z",fill:"var(--mute)"},mk);
+  el("path",{d:`M${m.l+w*0.8},${m.t+h*0.45} L${m.l+w*0.8},${cy+h*0.3}`,stroke:"var(--mute)","stroke-width":1.2,fill:"none","marker-end":"url(#ah)","stroke-dasharray":"3 3"},s);
+  el("path",{d:`M${cx+w*0.45},${cy+h*0.55} L${m.l+w*0.85},${cy+h*0.55}`,stroke:"var(--mute)","stroke-width":1.2,fill:"none","marker-end":"url(#ah)","stroke-dasharray":"3 3"},s);
+  el("line",{x1:m.l,x2:W-m.r,y1:H-m.b,y2:H-m.b,class:"axis",stroke:"var(--ink)"},s);el("line",{x1:m.l,x2:m.l,y1:m.t,y2:H-m.b,stroke:"var(--ink)"},s);
+  txt(s,(m.l+W-m.r)/2,H-14,"Share of AI's spread it can toll  →",{"text-anchor":"middle",fill:"var(--slate)",style:"font-family:var(--sans);font-size:13px"});
+  const t=txt(s,0,0,"Durability of margin  →",{"text-anchor":"middle",fill:"var(--slate)",style:"font-family:var(--sans);font-size:13px",transform:`translate(20 ${(m.t+H-m.b)/2}) rotate(-90)`});
+})();
+
+const RES=[[71.19,18.12,null],[72.13,17.57,null],[70.68,18.33,null],[71.01,17.9,null],[71.46,17.5,null],[72.02,17.51,null],[72.3,16.97,null],[71.14,18.29,null],[72.31,17.71,null],[72.7,17.63,null],[71.4,18.9,null],[71.52,19.18,null],[71.62,19.67,null],[68.49,21.39,null],[67.49,22.43,null],[66.5,23.65,null],[66.39,24.52,null],[66.23,24.97,null],[66.66,24.45,null],[65.45,25.03,null],[67.09,23.44,null],[67.39,23.31,null],[66.89,23.77,null],[65.51,24.68,null],[65.14,24.9,null],[65.81,24.55,null],[66.08,24.13,null],[66.52,23.89,null],[66.16,24.37,null],[65.51,24.91,null],[65.91,24.57,null],[64.87,25.24,null],[64.89,25.3,null],[64.88,25.17,null],[63.91,26.01,null],[63.88,26.13,null],[62.94,26.54,null],[62.59,26.61,null],[64.17,25.32,null],[63.77,26.21,null],[65.18,25.82,null],[62.81,27.57,null],[61.57,28.03,null],[62.15,27.7,null],[62.18,27.06,null],[62.94,26.02,null],[61.96,26.39,null],[62.25,25.76,null],[61.43,26.2,null],[60.89,26.49,null],[62.03,25.35,null],[62.7,24.45,null],[61.85,24.61,null],[61.77,24.8,null],[61.41,24.04,null],[61.5,24.07,null],[62.03,23.41,null],[62.08,23.68,null],[61.65,23.95,null],[61.28,24.21,null],[63.04,23.27,null],[63.08,22.97,null],[64.62,21.58,null],[65.17,21.21,null],[66,20.02,null],[65.3,19.9,null],[65.55,19.79,null],[65.75,19.15,null],[65.46,19.55,null],[65.22,19.41,null],[64.7,19.68,null],[65.36,19.14,1.08],[64.69,19.29,1.08],[63.84,19.96,1.08],[63.53,20.07,1.12],[62.73,20.17,1.23],[62.79,20.36,1.4],[62.41,20.26,1.83],[61.95,20.48,1.8],[61.76,20.67,1.89],[61.79,20.28,1.95],[61.31,20.56,1.93],[61.61,20.26,1.96],[60.75,20.59,1.94],[61.85,20.08,2.01],[61.31,20.19,2.08],[60.45,20.59,2.16],[58.92,21.29,2.29],[59.43,20.5,2.5],[59.18,20.58,2.64],[59.25,20.52,2.68],[58.8,20.59,2.8],[58.97,19.96,2.84],[59.74,19.64,2.78],[60.1,19.49,2.63],[58.52,20.37,2.61],[59.46,19.58,2.58],[59.41,19.72,2.45],[59.18,19.56,2.37],[58.42,19.95,2.29],[58.94,19.6,2.15],[58.15,19.76,2.14],[57.28,20.04,2.18],[57.79,19.84,2.18],[57.74,20.06,2.12],[57.08,20.24,1.99],[56.93,20.36,1.92],[56.42,20.38,1.95],[57.18,20.04,1.98],[56.7,20.6,2.11]],BONDS=[532,532,533,533,533,534,534,534,535,535,535,536,536,538,540,542,543,545,547,549,551,552,554,556,558,557,556,555,554,553,553,552,551,550,549,548,547,544,540,537,534,530,527,524,520,517,514,510,507,503,499,495,491,487,483,479,475,471,467,463,459,458,457,456,454,453,452,451,450,449,447,446,445,444,443,442,441,440,440,439,438,437,436,435,434,433,432,431,430,429,428,427,426,425,424,423,422,420,419,417,415,414,412,410,409,407,405,404,402,399,397,394,391,389,386,383,381,378,375,373,370,369,369,368,367,367,366,365,365,364,363,363,362,362,362,362,362,362,363,363,363,363,363,363,363,363,363,363,363,363,363,362,362,362,362,362,362,361,360,359,359,358,357,356,355,355,354,353,352,351,350,348,347,346,345,343,342,341,340,338,337,338,340,341,342,343,345,346,347,348,350,351,352,353,355,356,357,358,359,361,362,363,365,366,367,365,363,362,360,358,356,354,352,351,349,347,345,345,345,344,344,344,344,343,343,343,343,342,342,344,345,347,349,350,352,354,355,357,359,360,362,362,362,361,361,361,361,361,361,360,360,360,360,361,363,364,365,366,368,369,370,371,373,374,375,375,374,374,373,373,373,372,372,371,371,370,370,368,366,364,362,360,358,356,354,352,350,348,346,347,348,350,351,352,353,354,355,356,358,359,360,358,357,355,353,352,350,348,347,345,343,342,340,340,339,339,338,338,338,337,337,336,336,335,335,333,331,329,327,325,323,320,318,316,314,312,310,310,311,311,312,312,313,313,313,314,314,315,315,315,314,314,313,313,313,312,312,311,311,310,310,311,311,312,313,313,314,315,315,316,317,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,333,334,335,336,337,337,338,339,340,341,341,342,343,343,344,345,345,346,347,347,348,348,347,347,346,346,346,345,345,344,344,343,343,345,347,349,351,353,355,357,359,361,363,365,367,369,370,372,374,375,377,379,380,382,384,385,387,386,385,384,383,382,381,381,380,379,378,377,376,377,378,380,381,382,384,385,386,387,389,390,391,392,392,393,393,394,395,395,396,396,397,397,398,398,399,399,399,399,400,400,400,400,401,401,401,405,408,412,416,419,423,427,430,434,438,441,445,443,440,438,435,433,431,428,426,423,421,418,416,417,417,418,419,419,420,421,421,422,423,423,424,422,421,419,418,416,415,413,411,410,408,407,405,406,408,410,411,413,414,416,417,419,420,422,423,426,429,432,434,437,440,443,446,449,451,454,457,456,456,455,455,454,454,453,452,452,451,451,450,454,458,462,466,470,473,477,481,485,489,493,497,498,499,500,501,502,503,504,505,506,507,508,509,502,496,489,483,476,470,463,456,450,443,437,430,431,431,431,432,433,433,434,434,435,435,435,436,434,431,429,426,423,421,419,416,414,411,409,406,404,403,401,399,398,396,394,393,391,389,388,386,385,383,382,380,379,377,376,374,373,371,370,368,365,362,360,357,354,351,348,345,343,340,337,334,334,334,334,334,334,334,333,333,333,333,333,333,335,338,340,342,344,347,349,351,353,356,358,360,357,355,352,350,347,345,342,339,337,334,332,329,329,330,330,331,331,332,332,332,333,333,334,334,337,340,343,345,348,351,354,357,360,362,365,368,365,362,359,356,353,350,346,343,340,337,334,331,329,328,326,325,323,322,320,318,317,315,314,312,309,307,304,301,298,296,293,290,287,284,282,279,278,277,276,274,273,272,271,270,269,267,266,265,265,266,266,266,266,267,267,267,267,268,268,268,267,266,265,264,263,262,261,260,259,258,257,256,254,253,251,249,248,246,244,243,241,239,238,236,235,234,232,231,230,229,227,226,225,224,222,221,219,217,215,212,210,208,206,204,202,199,197,195,199,204,208,212,216,221,225,229,233,238,242,246,246,246,246,246,246,247,247,247,247,247,247,247,247,247,247,247,247,248,248,248,248,248,248,248,247,246,245,244,243,243,242,241,240,239,238,237,236,234,233,231,230,228,227,225,224,222,221,219,220,220,221,221,222,222,223,223,224,224,225,225,227,228,230,231,233,234,236,238,239,241,242,244,243,242,241,240,239,238,236,235,234,233,232,231,231,231,231,231,231,232,232,232,232,232,232,232,234,236,238,240,242,245,247,249,251,253,255,257,258,259,260,261,262,263,263,264,265,266,267,268,269,271,272,273,274,276,277,278,279,281,282,283,280,277,283,305,311,293,295,287,266,268,259,248,247,237,229,237,238,230,236,238,243,248,251,261,265,268,275,276,278,290,297,297,288,289,296,290,284,296,318,307,300,311,333,338,334,349,359,346,334,341,348,360,380,393,393,392,397,372,321,309,305,298,288,292,297,320,354,376,380,374,386,402,396,399,412,431,434,440,443,468,453,453,469,472,449,425,428,435,415,390,380,380,389,393,384,384,378,374,378,371,388,392,404,398,392,394,406,408,404,393,384,387,391,401,398,398,393,392,386,383,392,393,397,393,399,402,400,408,411,412,413,417,415,422,423,420,417,419,419,420,419,415,418,419,421,421,420,421,421,420,425,429,435,445,462,461,483,487,475,478,481,502,522,518,501,516,484,458,463,454,459,485,502,516,528,530,548,575,570,553,556,574,564,587,572,550,542,546,558,570,603,604,619,630,617,632,657,672,669,716,710,714,765,779,724,707,739,791,784,746,753,739,733,684,639,624,611,570,583,639,652,673,658,614,593,581,593,595,608,607,619,613,611,611,621,655,648,628,636,646,664,671,667,685,690,713,740,709,679,673,674,699,696,721,751,758,754,781,804,804,790,768,743,750,739,773,823,806,786,806,840,843,814,805,800,774,779,773,756,790,786,783,777,759,741,729,687,721,739,746,737,746,728,733,740,734,752,758,769,796,803,804,815,835,846,864,841,842,864,881,901,910,910,912,918,925,891,895,903,933,1030,1065,1039,1080,1241,1275,1147,1018,978,1025,1110,1151,1175,1268,1284,1257,1319,1312,1368,1410,1347,1428,1494,1532,1515,1339,1372,1459,1443,1386,1387,1362,1430,1395,1306,1234,1091,1055,1054,1046,1072,1051,1040,1038,1085,1138,1185,1165,1154,1169,1183,1167,1184,1232,1263,1341,1356,1336,1272,1252,1216,1157,1150,1138,1151,1186,1143,1085,1016,1031,1033,1037,1024,978,926,919,870,778,730,771,780,730,717,745,743,725,711,708,725,725,802,861,840,845,876,942,952,886,899,867,821,837,872,909,892,906,926,898,880,896,911,909,917,936,918,886,828,802,811,819,801,787,784,821,847,859,879,876,848,847,875,889,872,839,808,809,785,811,804,807,828,827,790,765,753,742,709,703,734,754,748,739,726,684,659,642,659,687,677,660,626,598,597,604,596,581,568,536,533,572,577,575,597,648,697,718,710,730,724,746,774,796,781,778,747,720,706,663,617,628,649,620,604,593,571,565,581,627,651,674,691,687,664,683,653,620,630,658,642,669,689,671,649,622,630,621,603,588,581,554,557,565,564,565,550,546,534,481,453,483,465,472,500,523,518,554,590,579,594,592,611,603,628,666,652,626,599,644,610,605,583,580,574,572,524,516,510,489,514,539,528,524,497,473,457,465,509,504,491,528,521,516,493,465,426,387,394,405,403,405,390,381,396,357,333,398,445,427,429,430,427,415,408,383,435,472,473,450,428,413,410,419,423,422,417,450,434,414,400,418,426,420,446,454,447,442,457,472,499,511,511,509,488,472,473,460,456,476,472,456,469,475,510,500,467,452,453,415,410,374,374,351,368,388,410,401,389,369,381,353,242,252,287,282,293,329,372,356,359,340,339,340,359,373,369,373,385,342,320,301,270,265,254,276,329,339,358,341,346,317,300,300,230,198,215,201,198,197,197,217,205,180,162,153,168,172,175,165,172,191,198,196,176,193,230,258,274,281,262,272,290,286,271,272,271,256,260,254,242,253,230,233,221,188,198,204,194,220,236,232,217,217,207,226,224,209,178,189,181,181,164,150,156,163,176,214,249,243,242,248,230,230,219,232,221,220,236,235,240,258,286,284,287,298,291,289,289,300,315,312,283,271,268,257,253,240,207,206,163,170,171,181,186,176,150,87,66,67,73,62,65,68,79,87,93,108,126,161,164,162,152,132,128,137,158,156,147,176,193,213,275,290,314,290,290,352,398,389,362,353,375,366,346,357,375,390,417,438,480,450,402,406,421,421,454,448,431,425,387,372,410,436,439,463,445,428,428,442,438,439,426,412,406,409,414,421,413,425,432,448,447,460,468];
+function lineChart(id,o){
+  const W=o.W||860,H=o.H||340,m=Object.assign({l:44,r:110,t:18,b:34},o.m||{});const s=frame(id,W,H,o.aria);
+  const x=v=>m.l+(v-o.x0)/(o.x1-o.x0)*(W-m.l-m.r),y=v=>m.t+(o.y1-v)/(o.y1-o.y0)*(H-m.t-m.b);
+  o.yt.forEach(v=>{el("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:"grid"},s);txt(s,m.l-8,y(v)+4,(o.yf||String)(v),{"text-anchor":"end"})});
+  el("line",{x1:m.l,x2:W-m.r,y1:H-m.b,y2:H-m.b,class:"axis"},s);
+  o.xt.forEach(v=>txt(s,x(v),H-12,(o.xf||String)(v),{"text-anchor":"middle"}));
+  if(o.pre)o.pre(s,x,y,W,H,m);
+  const poly=(pts,c,w,dash)=>{const a={points:pts.map(p=>x(p[0])+","+y(p[1])).join(" "),fill:"none",stroke:c,"stroke-width":w,"stroke-linejoin":"round","stroke-linecap":"round"};if(dash)a["stroke-dasharray"]=dash;el("polyline",a,s)};
+  o.series.forEach(se=>{
+    const segs=[];let cur=[];se.pts.forEach(p=>{if(p[1]==null){if(cur.length)segs.push(cur);cur=[]}else cur.push(p)});if(cur.length)segs.push(cur);
+    segs.forEach(sg=>{if(se.split!=null){poly(sg.filter(p=>p[0]<=se.split),se.c,2);poly(sg.filter(p=>p[0]>=se.split),se.c,2,"4 4")}else poly(sg,se.c,se.w||2)});
+    const last=se.pts.filter(p=>p[1]!=null).slice(-1)[0];
+    if(se.dot!==false)el("circle",{cx:x(last[0]),cy:y(last[1]),r:4,fill:se.c,stroke:"var(--paper)","stroke-width":2},s);
+    if(se.label){txt(s,x(last[0])+10,y(last[1])+(se.dy||0)+5,se.label,{class:"lbl"});if(se.sub)txt(s,x(last[0])+10,y(last[1])+(se.dy||0)+21,se.sub,{class:"lbl2"})}
+  });
+  if(o.post)o.post(s,x,y,W,H,m);
+  const g=el("g",{},s),vl=el("line",{y1:m.t,y2:H-m.b,stroke:"var(--ink)","stroke-opacity":".25",visibility:"hidden"},g);
+  const dots=o.series.map(se=>el("circle",{r:4,fill:se.c,stroke:"var(--paper)","stroke-width":2,visibility:"hidden"},g));
+  const hit=el("rect",{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,class:"hit"},s);
+  const xv=e=>{const r=s.getBoundingClientRect();return o.x0+((e.clientX-r.left)*W/r.width-m.l)/(W-m.l-m.r)*(o.x1-o.x0)};
+  hit.addEventListener("pointermove",e=>{const v=xv(e),rows=[];
+    o.series.forEach((se,i)=>{let best=null,bd=1e9;se.pts.forEach(p=>{if(p[1]!=null&&Math.abs(p[0]-v)<bd){bd=Math.abs(p[0]-v);best=p}});
+      if(best&&bd<=(o.snap||1e9)){dots[i].setAttribute("cx",x(best[0]));dots[i].setAttribute("cy",y(best[1]));dots[i].setAttribute("visibility","visible");rows.push([se.name,best])}else dots[i].setAttribute("visibility","hidden")});
+    if(!rows.length)return;vl.setAttribute("x1",x(rows[0][1][0]));vl.setAttribute("x2",x(rows[0][1][0]));vl.setAttribute("visibility","visible");
+    tip.innerHTML=`<b>${o.tx(rows[0][1][0])}</b><br>`+rows.map(r=>`${r[0]}: ${o.ty(r[1][1])}`).join("<br>");tip.classList.add("on");moveTip(e)});
+  hit.addEventListener("pointerleave",()=>{tip.classList.remove("on");vl.setAttribute("visibility","hidden");dots.forEach(d=>d.setAttribute("visibility","hidden"))});
+}
+const qLab=t=>{const yy=Math.floor(t+1e-6),q=Math.round((t-yy)*4)+1;return yy+" Q"+q};
+lineChart("#c-reserves",{aria:"Line chart of currency shares of world reserves, 1999 to 2026. The dollar falls from a 72.7 percent peak in 2001 to 56.7 percent; the euro ends at 20.6 percent; the renminbi at 2.1 percent.",
+  x0:1999,x1:2026.5,y0:0,y1:80,yt:[0,20,40,60,80],yf:v=>v+"%",xt:[2000,2005,2010,2015,2020,2025],snap:.2,
+  series:[{name:"Dollar",c:"var(--s1)",pts:RES.map((r,i)=>[1999+i/4,r[0]]),label:"Dollar 56.7%"},
+          {name:"Euro",c:"var(--s2)",pts:RES.map((r,i)=>[1999+i/4,r[1]]),label:"Euro 20.6%"},
+          {name:"Renminbi",c:"var(--g1)",pts:RES.map((r,i)=>[1999+i/4,r[2]]),label:"Renminbi 2.1%"}],
+  post:(s,x,y)=>{const pk=RES.findIndex(r=>r[0]===72.7);el("circle",{cx:x(1999+pk/4),cy:y(72.7),r:3,fill:"var(--s1)"},s);txt(s,x(1999+pk/4)+8,y(72.7)-9,"72.7% peak, 2001",{class:"lbl2"})},
+  tx:qLab,ty:v=>v.toFixed(1)+"%"});
+table("#c-reserves",["Quarter","Dollar","Euro","Renminbi"],RES.map((r,i)=>[i,r]).filter(([i])=>i%4===3||i===RES.length-1).map(([i,r])=>[qLab(1999+i/4),r[0]+"%",r[1]+"%",r[2]==null?"–":r[2]+"%"]));
+
+const TP=[37450,38580,42481,48453,54237,59311,62165,66838].map(v=>v/37450*100).concat([194.9,204.7,215.3,225.1]);
+const TH=[424285,448464,488649,592195,614795,601546,607979,584519].map(v=>v/424285*100).concat([139.5,145,151,157.1]);
+lineChart("#c-tcs",{W:440,H:300,m:{l:34,r:78,t:14,b:30},aria:"TCS operating profit and headcount indexed to fiscal 2019. Profit reaches 178 in FY2026 and is forecast at 225 by FY2030; headcount reaches 138 in FY2026, forecast at 157.",
+  x0:19,x1:30,y0:80,y1:240,yt:[100,150,200],xt:[19,22,26,30],xf:v=>"FY"+v,snap:.6,
+  pre:(s,x,y,W,H,m)=>{el("rect",{x:x(26),y:m.t,width:x(30)-x(26),height:H-m.t-m.b,fill:"var(--wash)"},s);txt(s,x(28),m.t+14,"forecast",{"text-anchor":"middle",class:"lbl2",style:"font-style:italic"})},
+  series:[{name:"Profit",c:"var(--s1)",pts:TP.map((v,i)=>[19+i,v]),split:26,label:"Profit",sub:"225"},
+          {name:"Headcount",c:"var(--s2)",pts:TH.map((v,i)=>[19+i,v]),split:26,label:"People",sub:"157"}],
+  tx:v=>"FY20"+v+(v>26?" (forecast)":""),ty:v=>Math.round(v)});
+table("#c-tcs",["Year","Profit index","Headcount index"],TP.map((v,i)=>["FY20"+(19+i)+(i>7?" (f)":""),Math.round(v),Math.round(TH[i])]));
+
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+lineChart("#c-bonds",{H:330,m:{r:110},aria:"Long-term US bond yields monthly from 1871 to 2026 against a 4.48 percent average. Peak 15.32 percent in September 1981, low 0.62 percent in July 2020, 5.17 percent on September 25, 2026.",
+  x0:1871,x1:2026.8,y0:0,y1:16,yt:[0,4,8,12,16],yf:v=>v+"%",xt:[1880,1900,1920,1940,1960,1980,2000,2020],snap:.5,
+  pre:(s,x,y,W,H,m)=>{el("line",{x1:m.l,x2:W-m.r,y1:y(4.48),y2:y(4.48),stroke:"var(--accent)","stroke-dasharray":"5 4","stroke-width":1.2},s);txt(s,x(1873),y(4.48)-10,"Average since 1871: 4.48%",{class:"lbl2",style:"fill:var(--accent)"})},
+  series:[{name:"Yield",c:"var(--ink)",w:1.2,dot:false,pts:BONDS.map((v,i)=>[1871+i/12,v/100])}],
+  post:(s,x,y)=>{const a=(t,v,l1,l2,anc,dx,dy)=>{el("circle",{cx:x(t),cy:y(v),r:3.5,fill:"var(--s2)",stroke:"var(--paper)","stroke-width":1.5},s);txt(s,x(t)+dx,y(v)+dy,l1,{class:"lbl","text-anchor":anc});if(l2)txt(s,x(t)+dx,y(v)+dy+16,l2,{class:"lbl2","text-anchor":anc})};
+    a(1981+8/12,15.32,"15.32%","Sept. 1981","end",-10,5);a(2020.5,.62,"0.62%","July 2020","end",-10,-22);a(2026.73,5.17,"5.17%","Sept. 25, 2026","start",10,-6)},
+  tx:t=>{const yy=Math.floor(t+1e-6);return MON[Math.min(11,Math.round((t-yy)*12))]+" "+yy},ty:v=>v.toFixed(2)+"%"});
+
+const TRAIN=[[2016.735,307907,"GNMT","Google"],[2016.766,20285,"Xception","Google"],[2017.525,33440,"JFT","Google and Carnegie Mellon"],[2017.928,324542,"AlphaZero","DeepMind"],[2018.741,11648,"BigGAN-deep 512x512","DeepMind and Heriot-Watt"],[2019.5,160016,"RoBERTa Large","Facebook and University of Washington"],[2019.71,934981,"Megatron-BERT","NVIDIA"],[2019.71,216069,"Megatron-LM (8.3B)","NVIDIA"],[2019.81,231371,"T5-11B","Google"],[2019.83,380257,"AlphaStar","DeepMind"],[2020.074,697104,"Meena","Google"],[2020.116,113180,"Turing-NLG","Microsoft"],[2020.407,4324846,"GPT-3 175B (davinci)","OpenAI"],[2020.46,236644,"iGPT-XL","OpenAI"],[2021.011,335275,"DALL-E","OpenAI"],[2021.027,619736,"Switch","Google"],[2021.167,251389,"Meta Pseudo Labels","Google"],[2021.342,413094,"ProtT5-XXL","TU Munich, NVIDIA, Google and others"],[2021.407,454011,"ByT5-XXL","Google"],[2021.571,436165,"GOAT","DeepMind"],[2021.691,986964,"HyperCLOVA 82B","Naver"],[2021.777,6405599,"Megatron-Turing NLG 530B","Microsoft and NVIDIA"],[2021.936,3499778,"Gopher (280B)","DeepMind"],[2021.949,2092998,"GLaM","Google"],[2022.108,1319574,"LaMDA","Google"],[2022.258,12388952,"PaLM (540B)","Google"],[2022.336,1493962,"OPT-175B","Meta AI"],[2022.474,1576998,"Parti","Google"],[2022.592,1635559,"GLM-130B","Tsinghua University"],[2022.852,1990895,"BLOOM-176B","Hugging Face, BigScience"],[2022.907,8491315,"GPT-3.5 (text-davinci-003)","OpenAI"],[2023.205,78351375,"GPT-4","OpenAI"],[2023.358,28962680,"PaLM 2","Google"],[2023.68,25816107,"Falcon-180B","Technology Innovation Institute (Abu Dhabi)"],[2023.891,11539686,"Inflection-2","Inflection AI"],[2023.93,191400000.0,"Gemini 1.0 Ultra","Google DeepMind"]],FIT=[-805.9406834221753, 0.40175165176785177],ARENA=[["Claude Opus 5.5 (Max)","US",6.19,20.92],["GPT-6 Astra (Max)","US",4.15,14.7],["GPT-6.1 Sol (Max)","US",0.77,13.55],["DeepSeek-V4.1-Flash (Max)","CN",0.19,4.73],["MiMo-V2.6-Pro","CN",0.12,3.68],["GPT-6 Luna (Max)","US",0.08,3.03],["MiMo-V2.6-Flash","CN",0.06,2.52],["GPT-6 Luna (Medium)","US",0.02,-0.55],["GPT-6 Luna (Low)","US",0.01,-4.59]],ARENA_O=[[7.7108,14.23],[5.452,8.16],[3.9191,12.66],[3.2955,8.38],[2.3301,3.07],[1.717,6.59],[1.6007,3.73],[1.5423,9.4],[1.3076,0.77],[1.1459,1.79],[1.0905,12.04],[0.9959,-4.5],[0.9132,2.12],[0.8983,1.39],[0.834,1.61],[0.8069,3.59],[0.5682,-0.91],[0.5589,0.48],[0.5341,3.48],[0.5275,-11.74],[0.521,-6.59],[0.4857,-1.43],[0.4837,-6.44],[0.4256,2.45],[0.4084,-14.09],[0.296,-6.18],[0.1812,-2.56],[0.1607,-15.77],[0.1474,-1.54],[0.1438,2.56],[0.1432,-9.62],[0.1281,-6.59],[0.1127,1.5],[0.0831,-12.26],[0.079,-2.3],[0.074,-6.15],[0.044,-19.57]],OCF=[65623, 69197, 74041, 79320, 71011, 96868, 109832, 99780, 104475, 114567, 123000, 136332, 120168, 134627, 167135, 180899, 157878, 186379],CAPEX=[36619, 38418, 41031, 41939, 36573, 35415, 38308, 44087, 45963, 55650, 61165, 76309, 77764, 97326, 105773, 130665, 148385, 181543];
+/* Figure: observed training costs */
+(function(){
+  const W=860,H=380,m={l:64,r:130,t:18,b:34},s=frame("#c-train",W,H,"Scatter of estimated cloud cost of 36 frontier training runs, 2016 to 2023, on a log scale, with a fitted trend of about 2.5 times a year and a projection at 3.5 times a year past one billion dollars.");
+  const x=v=>m.l+(v-2016)/(2029.5-2016)*(W-m.l-m.r),y=v=>m.t+(10-Math.log10(v))/(10-4)*(H-m.t-m.b);
+  [[1e4,"$10K"],[1e5,"$100K"],[1e6,"$1M"],[1e7,"$10M"],[1e8,"$100M"],[1e9,"$1B"],[1e10,"$10B"]].forEach(([v,l])=>{el("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:"grid"},s);txt(s,m.l-8,y(v)+4,l,{"text-anchor":"end"})});
+  el("line",{x1:m.l,x2:W-m.r,y1:H-m.b,y2:H-m.b,class:"axis"},s);
+  [2016,2018,2020,2022,2024,2026,2028].forEach(v=>txt(s,x(v),H-12,String(v),{"text-anchor":"middle"}));
+  el("rect",{x:x(2024),y:m.t,width:x(2029.5)-x(2024),height:H-m.t-m.b,fill:"var(--wash)"},s);
+  txt(s,x(2026.75),m.t+14,"projection",{"text-anchor":"middle",class:"lbl2",style:"font-style:italic"});
+  const [a,b]=FIT,f=t=>Math.pow(10,a+b*t);
+  el("line",{x1:x(2016.3),y1:y(f(2016.3)),x2:x(2024),y2:y(f(2024)),stroke:"var(--s1)","stroke-width":2},s);
+  const e=t=>f(2024)*Math.pow(3.5,t-2024);
+  el("line",{x1:x(2024),y1:y(f(2024)),x2:x(2029.4),y2:y(e(2029.4)),stroke:"var(--s1)","stroke-width":2,"stroke-dasharray":"5 4"},s);
+  txt(s,x(2019.6),y(f(2019.6))+48,"Fitted trend, 2.5× a year",{class:"lbl2"});
+  txt(s,x(2029.4)+8,y(e(2029.4))+4,"3.5× a year",{class:"lbl"});
+  TRAIN.forEach(r=>{el("circle",{cx:x(r[0]),cy:y(r[1]),r:4.5,fill:"var(--s1)","fill-opacity":".55",stroke:"var(--paper)","stroke-width":1.5},s);
+    hover(el("circle",{cx:x(r[0]),cy:y(r[1]),r:11,class:"hit"},s),`<b>${r[2]}</b><br>${r[3]}, ${Math.floor(r[0])}<br>~$${r[1]>=1e6?(r[1]/1e6).toFixed(1)+"M":Math.round(r[1]/1e3)+"K"}`)});
+  [["GPT-4",-8,-10,"end"],["Gemini 1.0 Ultra",8,-8,"start"],["AlphaZero",8,-6,"start"]].forEach(([n,dx,dy,an])=>{const r=TRAIN.find(q=>q[2]===n);if(r)txt(s,x(r[0])+dx,y(r[1])+dy,n,{class:"lbl2","text-anchor":an})});
+  el("circle",{cx:x(2026.4),cy:y(1e9),r:6,fill:"var(--paper)",stroke:"var(--s2)","stroke-width":2},s);
+  txt(s,x(2026.4)-10,y(1e9)-10,"~$1B run reported, 2026",{class:"lbl","text-anchor":"end"});
+  table("#c-train",["Model","Organization","Date","Est. cost"],TRAIN.map(r=>[r[2],r[3],r[0].toFixed(2),"$"+Math.round(r[1]).toLocaleString()]));
+})();
+
+/* Figure: hyperscaler cash flow vs capex */
+(function(){
+  const q=OCF.map((v,i)=>2022+i/4);
+  lineChart("#c-cash",{H:330,m:{l:56,r:120},aria:"Quarterly operating cash flow and cash capital expenditure of Alphabet, Amazon, Meta, Microsoft and Oracle combined, 2022 to Q2 2026. Capex rises from 37 to 182 billion dollars a quarter; cash flow from 66 to 186 billion.",
+    x0:2022,x1:2026.3,y0:0,y1:200,yt:[0,50,100,150,200],yf:v=>"$"+v+"B",xt:[2022,2023,2024,2025,2026],snap:.15,
+    series:[{name:"Operating cash flow",c:"var(--s1)",pts:OCF.map((v,i)=>[q[i],v/1000]),label:"Cash flow",sub:"$186B",dy:-12},
+            {name:"Capital expenditure",c:"var(--s2)",pts:CAPEX.map((v,i)=>[q[i],v/1000]),label:"Capex",sub:"$182B",dy:16}],
+    tx:qLab,ty:v=>"$"+v.toFixed(1)+"B"});
+  table("#c-cash",["Quarter","Operating cash flow","Capex","Capex / cash flow"],OCF.map((v,i)=>[qLab(q[i]),"$"+(v/1000).toFixed(1)+"B","$"+(CAPEX[i]/1000).toFixed(1)+"B",Math.round(CAPEX[i]/v*100)+"%"]));
+})();
+
+/* Figure: Arena frontier with threshold */
+(function(){
+  const W=860,H=400,m={l:56,r:24,t:18,b:40};
+  const x=v=>m.l+(Math.log10(v)-Math.log10(.005))/(Math.log10(12)-Math.log10(.005))*(W-m.l-m.r),y=v=>m.t+(23-v)/(23+21)*(H-m.t-m.b);
+  const input=$("#arena-t"),out=$("#arena-out");
+  function draw(){
+    const t=+input.value,s=frame("#c-arena",W,H,"Scatter of Arena Agent Mode results, October 21, 2026: net improvement against median cost per task, log scale. US models top the frontier; Chinese models sit at its cheap end.");
+    [-20,-10,0,10,20].forEach(v=>{el("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:v===0?"axis":"grid"},s);txt(s,m.l-8,y(v)+4,(v>0?"+":"")+v+"%",{"text-anchor":"end"})});
+    [[.01,"$0.01"],[.1,"$0.10"],[1,"$1"],[10,"$10"]].forEach(([v,l])=>txt(s,x(v),H-16,l,{"text-anchor":"middle"}));
+    txt(s,W-m.r,H-2,"Median cost per task, log scale →",{"text-anchor":"end"});
+    el("rect",{x:m.l,y:m.t,width:W-m.l-m.r,height:Math.max(0,y(t)-m.t),fill:"var(--accent-wash)"},s);
+    el("line",{x1:m.l,x2:W-m.r,y1:y(t),y2:y(t),stroke:"var(--accent)","stroke-dasharray":"4 4"},s);
+    txt(s,m.l+8,y(t)-8,"At least "+(t>0?"+":"")+t.toFixed(1)+"% net improvement",{class:"lbl2",style:"fill:var(--accent)"});
+    ARENA_O.forEach(p=>el("rect",{x:x(p[0])-3.5,y:y(p[1])-3.5,width:7,height:7,fill:"var(--g2)"},s));
+    const fr=[...ARENA].sort((a,b)=>a[2]-b[2]);
+    el("polyline",{points:fr.map(p=>x(p[2])+","+y(p[3])).join(" "),fill:"none",stroke:"var(--g1)","stroke-width":1.2},s);
+    const pick=cc=>ARENA.filter(p=>p[1]===cc&&p[3]>=t).sort((a,b)=>a[2]-b[2])[0];
+    const us=pick("US"),cn=pick("CN");
+    ARENA.forEach(p=>{const c=p[1]==="US"?"var(--s1)":"var(--s2)",hi=p===us||p===cn;
+      el("circle",{cx:x(p[2]),cy:y(p[3]),r:hi?7:5.5,fill:c,stroke:hi?"var(--ink)":"var(--paper)","stroke-width":hi?2:2},s);
+      const L={"Claude Opus 5.5 (Max)":[-10,-8,"end"],"GPT-6 Astra (Max)":[-10,-10,"end"],"GPT-6.1 Sol (Max)":[10,5,"start"],"DeepSeek-V4.1-Flash (Max)":[10,-9,"start"],"MiMo-V2.6-Pro":[6,22,"start"],"GPT-6 Luna (Max)":[0,-13,"middle"],"MiMo-V2.6-Flash":[-10,5,"end"],"GPT-6 Luna (Medium)":[10,5,"start"],"GPT-6 Luna (Low)":[10,5,"start"]}[p[0]]||[10,4,"start"];txt(s,x(p[2])+L[0],y(p[3])+L[1],p[0],{class:"lbl2","text-anchor":L[2]});
+      hover(el("circle",{cx:x(p[2]),cy:y(p[3]),r:14,class:"hit"},s),`<b>${p[0]}</b><br>${p[1]==="US"?"United States":"China"}<br>$${p[2].toFixed(2)} per task · ${(p[3]>0?"+":"")+p[3].toFixed(1)}%`)});
+    out.innerHTML=us&&cn?`Cheapest US model: <b>${us[0]}</b>, $${us[2].toFixed(2)}. Cheapest Chinese model: <b>${cn[0]}</b>, $${cn[2].toFixed(2)}. US premium: <b>${(us[2]/cn[2]).toFixed(1)}×</b>.`:us?`Only US models clear this bar. Cheapest: <b>${us[0]}</b>, $${us[2].toFixed(2)} per task.`:"No named model clears this bar.";
+  }
+  input.addEventListener("input",draw);draw();
+  table("#c-arena-wrap",["Model","Country","Cost per task","Net improvement"],ARENA.map(p=>[p[0],p[1],"$"+p[2].toFixed(2),(p[3]>0?"+":"")+p[3]+"%"]));
+})();
+
+["#c-scissors","#c-train","#c-cash","#c-arena","#c-reserves","#c-bonds","#matrix"].forEach(id=>{const h=$(id);if(h)h.insertAdjacentHTML("beforebegin",'<p class="hint">Swipe to see the full chart →</p>')});
+/* ---------- Listen: recorded narration (audio/manifest.json), one clip per paragraph ---------- */
+(function(){
+  const SEL=".ch-head h2,.ch-head .brief,.prose p,.tale p,.props li,blockquote.story p,.kcol .kitem,.fighead b,.vs>div,.moves li,.eras>div,.flow>div,.past>div,.instructions li,.qlist li,details.why .body>p,details.why .body li";
+  const clean=t=>t.replace(/X{6,}/g,"a redacted name").replace(/\s+/g," ")
+    .replace(/~\s?/g,"about ").replace(/(\d)\s?×/g,"$1 times").replace(/×/g," times ").replace(/÷\s?(\d+)/g,"divided by $1")
+    .replace(/\$(\d[\d.,]*)\s?T\b/g,"$1 trillion dollars").replace(/\$(\d[\d.,]*)\s?B\b/g,"$1 billion dollars").replace(/\$(\d[\d.,]*)\s?M\b/g,"$1 million dollars").replace(/\$(\d[\d.,]*)\s?K\b/g,"$1 thousand dollars")
+    .replace(/\bFY ?(\d{2,4})/g,(m,y)=>"fiscal "+(y.length===2?"20"+y:y)).replace(/\bQ([1-4]) (\d{4})/g,"quarter $1 of $2")
+    .replace(/[→↗↓]/g,"").replace(/–/g," to ").replace(/—/g,", ").trim();
+  const sections=[...document.querySelectorAll("section.ch")];
+  const items=[];
+  sections.forEach(sec=>{const title=((sec.querySelector(".ch-head h2")||{}).textContent||"").trim();
+    sec.querySelectorAll(SEL).forEach(el=>{if(el.closest(".tester,.toc,.panel,table"))return;
+      let t=el.textContent;if(el.matches(".fighead b"))t="Figure. "+t+".";t=clean(t);if(t.length<2)return;if(!/[.!?]["”’)]*$/.test(t))t+=".";
+      items.push({el,sec,id:sec.id,title,text:t})})});
+  // Export mode for the narration build: ?export-narration writes the script into the DOM
+  if(/export-narration/.test(location.search)){const pre=document.createElement("script");pre.type="application/json";pre.id="narration-export";
+    pre.textContent=JSON.stringify(items.map(i=>({section:i.id,title:i.title,text:i.text})));document.body.appendChild(pre);return}
+  const BASE="audio/";
+  fetch(BASE+"manifest.json",{cache:"no-cache"}).then(r=>r.ok?r.json():Promise.reject()).then(init).catch(()=>{document.documentElement.classList.add("no-speech")});
+  function init(man){
+    const map=new Map(man.clips.map(c=>[c.text,c]));
+    const q=items.map(i=>Object.assign(i,{clip:map.get(i.text)})).filter(i=>i.clip);
+    if(!q.length){document.documentElement.classList.add("no-speech");return}
+    const intro=man.intro?{el:null,title:"About this narration",clip:man.intro}:null;
+    const secMins=sec=>Math.max(1,Math.round(q.filter(i=>i.sec===sec).reduce((n,i)=>n+(i.clip.seconds||0),0)/60));
+    sections.forEach(sec=>{const k=sec.querySelector(".kicker");if(!k||!q.some(i=>i.sec===sec))return;const n=secMins(sec);
+      const b=document.createElement("button");b.type="button";b.className="listen";b.innerHTML=`Listen <span>${n} min</span>`;b.setAttribute("aria-label",`Listen to this section, about ${n} minute${n===1?"":"s"}`);
+      b.addEventListener("click",()=>startAt(q.findIndex(i=>i.sec===sec),false));k.appendChild(b)});
+    const total=Math.round(q.reduce((n,i)=>n+(i.clip.seconds||0),0)/60);
+    const hero=document.getElementById("listen-all");if(hero){hero.querySelector("span").textContent=total+" min";hero.hidden=false;hero.addEventListener("click",()=>startAt(0,true))}
+    const bar=document.createElement("div");bar.className="player";bar.hidden=true;bar.setAttribute("role","region");bar.setAttribute("aria-label","Audio player");
+    bar.innerHTML=`<div class="pl-in">
+      <button type="button" class="pl-b" data-a="prev" aria-label="Previous paragraph">⏮</button>
+      <button type="button" class="pl-b pl-main" data-a="toggle" aria-label="Pause">❚❚</button>
+      <button type="button" class="pl-b" data-a="next" aria-label="Next paragraph">⏭</button>
+      <div class="pl-meta"><span class="pl-sec"></span><div class="pl-prog"><i></i></div></div>
+      <label class="pl-opt" for="pl-rate"><span>Speed</span><select id="pl-rate"><option value="0.9">0.9×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option><option value="1.5">1.5×</option></select></label>
+      <span class="pl-credit">${man.credit||""}</span>
+      <button type="button" class="pl-b pl-x" data-a="stop" aria-label="Stop and close">✕</button></div>`;
+    document.body.appendChild(bar);
+    const $b=s=>bar.querySelector(s),main=$b(".pl-main"),rate=$b("#pl-rate"),audio=new Audio();audio.preload="auto";
+    try{const r=localStorage.getItem("ch-rate");if(r)rate.value=r}catch(e){}
+    rate.addEventListener("change",()=>{audio.playbackRate=+rate.value;try{localStorage.setItem("ch-rate",rate.value)}catch(e){}});
+    let idx=-1,cur=null,playing=false;const next=new Audio();next.preload="auto";
+    function mark(){document.querySelectorAll(".reading").forEach(e=>e.classList.remove("reading"));if(!cur||!cur.el){$b(".pl-sec").textContent=cur?cur.title:"";return}
+      cur.el.classList.add("reading");$b(".pl-sec").textContent=cur.title;$b(".pl-prog i").style.width=(Math.max(0,idx)/(q.length-1)*100)+"%";
+      const r=cur.el.getBoundingClientRect();if(r.top<70||r.bottom>innerHeight-110)cur.el.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}
+    function play(){audio.src=BASE+cur.clip.file;audio.playbackRate=+rate.value;audio.play().catch(()=>pause());
+      const n=q[idx+1];if(n)next.src=BASE+n.clip.file}
+    function go(i){if(i<0||i>=q.length){stop();return}idx=i;cur=q[i];mark();if(playing)play()}
+    audio.addEventListener("ended",()=>{if(!playing)return;if(cur&&!cur.el){go(idx<0?0:idx);return}go(idx+1)});
+    function startAt(i,withIntro){playing=true;bar.hidden=false;document.body.classList.add("has-player");main.textContent="❚❚";main.setAttribute("aria-label","Pause");
+      if(withIntro&&intro){idx=i-1;cur=intro;mark();play();idx=i;return}go(i)}
+    function pause(){playing=false;audio.pause();main.textContent="▶";main.setAttribute("aria-label","Play")}
+    function resume(){playing=true;main.textContent="❚❚";main.setAttribute("aria-label","Pause");if(audio.src)audio.play().catch(()=>{});else go(Math.max(0,idx))}
+    function stop(){pause();audio.removeAttribute("src");bar.hidden=true;document.body.classList.remove("has-player");document.querySelectorAll(".reading").forEach(e=>e.classList.remove("reading"))}
+    bar.addEventListener("click",e=>{const a=e.target.closest("[data-a]");if(!a)return;const act=a.dataset.a;
+      if(act==="toggle")playing?pause():resume();if(act==="next")go(idx+1);if(act==="prev")go(Math.max(0,idx-1));if(act==="stop")stop()});
+    q.forEach((it,i)=>it.el.addEventListener("dblclick",()=>{if(!bar.hidden){playing=true;go(i)}}));
+    if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:"The Commanding Heights: A Reader’s Companion",artist:"Unofficial companion",album:"Narration"});
+      navigator.mediaSession.setActionHandler("play",resume);navigator.mediaSession.setActionHandler("pause",pause);
+      navigator.mediaSession.setActionHandler("nexttrack",()=>go(idx+1));navigator.mediaSession.setActionHandler("previoustrack",()=>go(Math.max(0,idx-1)))}
+  }
+})();
+
+if(location.hash){const t=document.getElementById(location.hash.slice(1));if(t)setTimeout(()=>t.scrollIntoView(),60)}
+})();
+</script>
+</body>
+</html>

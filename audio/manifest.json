@@ -1,0 +1,701 @@
+{
+ "voice": "JBFqnCBsd6RMkjVDRZzb",
+ "model": "eleven_multilingual_v2",
+ "credit": "AI narration · ElevenLabs",
+ "intro": {
+  "file": "6a84706bd9e6d2.mp3",
+  "seconds": 13.93
+ },
+ "clips": [
+  {
+   "section": "ravi",
+   "text": "Abundant intelligence comes to Bangalore.",
+   "file": "d98c9a7d7efd3f.mp3",
+   "seconds": 2.55
+  },
+  {
+   "section": "ravi",
+   "text": "The essay does not open with a thesis. It opens with one man's day.",
+   "file": "eb2e5ce3270b9b.mp3",
+   "seconds": 4.78
+  },
+  {
+   "section": "ravi",
+   "text": "5:56 a.m. Ravi wakes before his wife in a fifteenth-floor apartment in Bellandur. He is a graduate of IIT Madras, the son of a scooter mechanic from Hubballi who told him to work with his mind, not his hands. He stayed in India when classmates left for the West, and rose through a firm that does back-office accounting for American insurers.",
+   "file": "2efd81aae990a2.mp3",
+   "seconds": 22.43
+  },
+  {
+   "section": "ravi",
+   "text": "His work has ballooned. He now oversees delivery for five North American clients instead of one or two, but he no longer manages people. He checks the output of AI agents, built on Chinese models, and lately approves their reports without reading them. Graduate hiring has been paused for a year. Three of his team of fifteen have left, and none will be replaced. Margins are rising, and he is earning more than ever.",
+   "file": "89969028fbf7b6.mp3",
+   "seconds": 26.61
+  },
+  {
+   "section": "ravi",
+   "text": "9:30 a.m. The local stock index opens at a record. On a call, the chief executive of the firm's American parent announces a restructuring: Ravi's division is cut in half, effective immediately, and staff across the subsidiary will fall by ninety percent over the coming months.",
+   "file": "988d33daee50af.mp3",
+   "seconds": 17.83
+  },
+  {
+   "section": "ravi",
+   "text": "10:21 p.m. He gets home late. Riots have spread across Indian cities as layoffs mount, and youth unemployment in Bangalore has climbed from five percent to thirty. His daughter is studying with an AI tutor that costs almost nothing and is teaching her faster than her school did, toward what, he no longer knows. From the balcony, behind a new concrete wall and razor wire, Ravi and his wife watch smoke rise over the city and, for the first time in months, reach for each other's hands.",
+   "file": "2f25e8fd0dc430.mp3",
+   "seconds": 30.37
+  },
+  {
+   "section": "ravi",
+   "text": "Ravi returns in Part V, and his daughter closes the essay.",
+   "file": "f4354c42b3140b.mp3",
+   "seconds": 4.09
+  },
+  {
+   "section": "brief",
+   "text": "Intelligence is the giveaway. The conduit is the business.",
+   "file": "52a02765b5349f.mp3",
+   "seconds": 3.48
+  },
+  {
+   "section": "brief",
+   "text": "Every great technology has paid its inventors less than it paid the people who controlled its distribution. Gutenberg went insolvent. The rail fortunes went to men who never built a locomotive. Manidis and Roberts argue that machine intelligence will follow the same path, faster. Frontier models are copied within months, so the price of any given capability collapses toward the cost of the computing power that runs it.",
+   "file": "1dee4f517f4254.mp3",
+   "seconds": 25.4
+  },
+  {
+   "section": "brief",
+   "text": "The money, they argue, will settle in a few positions that intelligence has to pass through to reach the wider economy. Those positions are scarce, controllable and durable. Borrowing Lenin's phrase from 1922, the authors call them the Commanding Heights. The essay sets out six connected propositions.",
+   "file": "9d40c657308f14.mp3",
+   "seconds": 19.13
+  },
+  {
+   "section": "brief",
+   "text": "It is not only an investment thesis. It is also a warning. The same forces that create the Heights break the ladder of development for countries like India, close the door on emigration, and widen the gap between owners and everyone else. In the world the authors describe, there are only “sovereigns, exarchates, and the wretched.” The essay keeps both in view, and so should anyone reading it.",
+   "file": "4711784a51927c.mp3",
+   "seconds": 23.45
+  },
+  {
+   "section": "brief",
+   "text": "1Models commoditize.The price of a fixed level of capability has fallen about thirteenfold a year. Open models trail the frontier by roughly four months.Overture.",
+   "file": "176afee8ad8429.mp3",
+   "seconds": 11.84
+  },
+  {
+   "section": "brief",
+   "text": "2The spending cannot stop.Training costs grow about 3.5 times a year. For one lab, falling behind means writing off everything already spent, so what is rational for each lab can destroy capital in aggregate.Part I.",
+   "file": "3b3e915b05702d.mp3",
+   "seconds": 15.28
+  },
+  {
+   "section": "brief",
+   "text": "3The state underwrites the Line.US growth, indexes and retirement savings now depend on AI, so Washington will backstop it. The true frontier moves behind government walls, and only America and China can stay in that race.Parts II to III.",
+   "file": "8d2099374449f2.mp3",
+   "seconds": 16.76
+  },
+  {
+   "section": "brief",
+   "text": "4Diffusion runs on dollars.Cheap models reach billions of people through phones, paid in dollar stablecoins. That creates global demand for dollars and quietly exports US inflation.Part IV.",
+   "file": "0283a1f2091ed3.mp3",
+   "seconds": 13.56
+  },
+  {
+   "section": "brief",
+   "text": "5The K widens everywhere.Offshore back offices are hit first. Licensed workers in rich countries are protected, and emigration routes close. Owners pull away from earners, and then from each other.Part V.",
+   "file": "399973aaecb1b8.mp3",
+   "seconds": 14.58
+  },
+  {
+   "section": "brief",
+   "text": "6Value pools at the Heights, which are not yet priced.Firms reorganize around a few operators paid like capital. Investors holding the last era's champions should rebuild their portfolios while the new positions can still be bought.Parts VI to VIII.",
+   "file": "5640c5132b5b16.mp3",
+   "seconds": 15.98
+  },
+  {
+   "section": "value-chain",
+   "text": "The value chain, as this guide reads the essay.",
+   "file": "b4b271cc75d16f.mp3",
+   "seconds": 3.11
+  },
+  {
+   "section": "value-chain",
+   "text": "Margin is real at every layer. It lasts at only one.",
+   "file": "3fe593a694cf82.mp3",
+   "seconds": 4.04
+  },
+  {
+   "section": "parts",
+   "text": "Eight parts, from the valley to the summit.",
+   "file": "8dd991916d2744.mp3",
+   "seconds": 2.69
+  },
+  {
+   "section": "parts",
+   "text": "Choose a part for its argument, its key number and what it means for capital.",
+   "file": "fe3e504c2c3be8.mp3",
+   "seconds": 4.5
+  },
+  {
+   "section": "pattern",
+   "text": "Born in one place, banked in another.",
+   "file": "e364f2c73caebe.mp3",
+   "seconds": 2.51
+  },
+  {
+   "section": "pattern",
+   "text": "The essay's founding pattern, which it calls old enough to recite like a nursery rhyme.",
+   "file": "a2bbf18bc4d08e.mp3",
+   "seconds": 5.2
+  },
+  {
+   "section": "scissors",
+   "text": "Costs rise, prices collapse.",
+   "file": "f3c15eef8c65b2.mp3",
+   "seconds": 2.37
+  },
+  {
+   "section": "scissors",
+   "text": "The lab's dilemma in a single chart.",
+   "file": "179201148da25c.mp3",
+   "seconds": 2.28
+  },
+  {
+   "section": "scissors",
+   "text": "Each new frontier model costs several times more to train than the last. Meanwhile, competition and distillation push the price of last year's capability toward the cost of compute. The authors ask who could expect trillions in spending to be repaid in twenty-dollar subscriptions. Their answer is that durable margin will not come from the model layer.",
+   "file": "28748965f0aa60.mp3",
+   "seconds": 21.13
+  },
+  {
+   "section": "scissors",
+   "text": "Figure. Frontier training cost against the price of a fixed capability.",
+   "file": "34a93acdbb3a05.mp3",
+   "seconds": 4.64
+  },
+  {
+   "section": "scissors",
+   "text": "Figure. What frontier training runs actually cost.",
+   "file": "1e9f18132f3fbd.mp3",
+   "seconds": 3.3
+  },
+  {
+   "section": "line",
+   "text": "Four curves that are really one.",
+   "file": "5d6d13844885d8.mp3",
+   "seconds": 2.0
+  },
+  {
+   "section": "line",
+   "text": "Capex, the index, training cost and capability. The authors say they have always been the same line.",
+   "file": "18449109b317bc.mp3",
+   "seconds": 6.41
+  },
+  {
+   "section": "line",
+   "text": "In the last quarter of 2025, investment in information-processing equipment added more than three times the growth of the entire US economy. Retirement accounts ride on the index, and the index rides on a few AI companies. That makes a stall politically intolerable. The authors expect Washington to sustain the Line with state equity in the labs and, eventually, by capping Treasury yields, as the Fed did from 1942 to 1951. As AI debt spreads, its correlation with the rest of the economy approaches one. Two bonds with the same rating may then fail together.",
+   "file": "e06aa8b9bce80f.mp3",
+   "seconds": 36.5
+  },
+  {
+   "section": "line",
+   "text": "The precedent is the Second World War. In 1942 the Federal Reserve fixed Treasury bill yields at ⅜% and capped long-term yields at 2½%, buying whatever investors wouldn't. The arrangement lasted until the Treasury to Fed Accord of 1951.",
+   "file": "9590147b9b0d8f.mp3",
+   "seconds": 18.34
+  },
+  {
+   "section": "line",
+   "text": "The essay's reasoning: if the frontier becomes a matter of national defense, and the state ends up financing training costs that grow about 3.5 times a year, its borrowing needs will push yields up. Once those yields start constraining the program, the authors expect Washington to suppress them again, even if Congress has to change the Fed's mandate to do it.",
+   "file": "4df7560f1c4546.mp3",
+   "seconds": 21.73
+  },
+  {
+   "section": "line",
+   "text": "Figure. Who grew the economy, quarter 4 of 2025.",
+   "file": "cec0b35ccc8b81.mp3",
+   "seconds": 4.46
+  },
+  {
+   "section": "line",
+   "text": "Figure. Capex as a share of GDP.",
+   "file": "ac8492ec8ee98d.mp3",
+   "seconds": 3.07
+  },
+  {
+   "section": "line",
+   "text": "Figure. Capex has caught up with the cash.",
+   "file": "92f3fb8ebb8dd1.mp3",
+   "seconds": 2.79
+  },
+  {
+   "section": "powers",
+   "text": "Intelligence splits into three tiers.",
+   "file": "65319710526ebb.mp3",
+   "seconds": 2.69
+  },
+  {
+   "section": "powers",
+   "text": "The best models stop being for sale, and nationalization happens without being called nationalization.",
+   "file": "29b762161a847b.mp3",
+   "seconds": 6.41
+  },
+  {
+   "section": "powers",
+   "text": "Figure. The premium, under permanent audit.",
+   "file": "e844e7623e11e1.mp3",
+   "seconds": 3.3
+  },
+  {
+   "section": "powers",
+   "text": "Why would China give its models away? Look at where each country keeps its savings. Chinese households hold their wealth in housing and bank deposits, so the party-state has little reason to defend high valuations for its labs. American retirements depend on the stock market, which now depends on AI labs. Cheap open models from China therefore hit the American financing model directly, and keeping the frontier funded may fall to the American state.",
+   "file": "732ec7ec24b1db.mp3",
+   "seconds": 27.31
+  },
+  {
+   "section": "powers",
+   "text": "The labs need things only a state can supply: permission to release their strongest models, predictable rules on foreign access, help with power and permits, financial certainty, and political legitimacy for gains that flow to few holders. A sovereign shareholder removes risks no private investor can.",
+   "file": "a1c644ff4f76b4.mp3",
+   "seconds": 19.41
+  },
+  {
+   "section": "powers",
+   "text": "Tools short of seizure: a single “golden share” (as in the 2025 U.S. Steel deal), procurement contracts, cost-plus programs, and licenses for frontier training runs.",
+   "file": "c1bc79f2947b3f.mp3",
+   "seconds": 11.47
+  },
+  {
+   "section": "powers",
+   "text": "Precedents: Lockheed building Polaris for one customer; the Atomic Energy Commission taking over the Manhattan Project's labs in 1947.",
+   "file": "83df1421824599.mp3",
+   "seconds": 9.1
+  },
+  {
+   "section": "powers",
+   "text": "China: already there. Model developers register with the Cyberspace Administration and stay under continuous review.",
+   "file": "d2593887c30fac.mp3",
+   "seconds": 7.71
+  },
+  {
+   "section": "powers",
+   "text": "The likely result, in the essay's view, is a lab split in two under one roof: a commercial company that sells at whatever margin the Chinese floor allows, and a frontier lab with a direct line to the White House.",
+   "file": "e899aae91af442.mp3",
+   "seconds": 13.1
+  },
+  {
+   "section": "powers",
+   "text": "Figure. Where household wealth sits, 2022.",
+   "file": "d6950a54cc7299.mp3",
+   "seconds": 3.9
+  },
+  {
+   "section": "powers",
+   "text": "Figure. A decade of equity returns.",
+   "file": "a41f784b7b7d3c.mp3",
+   "seconds": 2.37
+  },
+  {
+   "section": "neo-dollar",
+   "text": "America's strongest AI asset is its currency.",
+   "file": "43ddf8cf0c4e03.mp3",
+   "seconds": 3.39
+  },
+  {
+   "section": "neo-dollar",
+   "text": "“Whose is this image and superscription?” The coin, the authors suggest, still answers to Washington.",
+   "file": "84b705c0fbb35a.mp3",
+   "seconds": 6.27
+  },
+  {
+   "section": "neo-dollar",
+   "text": "The essay follows one payment. Malena, a freelance designer in Buenos Aires, triples her client list with an AI model. Clients pay her in a dollar stablecoin she keeps because the peso loses a third of its value each year. The issuer holds Treasuries, so she is helping fund US debt without ever having had a US bank account.",
+   "file": "ff2a7d0f3eccd7.mp3",
+   "seconds": 20.81
+  },
+  {
+   "section": "neo-dollar",
+   "text": "WorkAn AI-assisted jobA client in Austin pays for designs made on a phone in Argentina.",
+   "file": "6e97137fc2b305.mp3",
+   "seconds": 6.32
+  },
+  {
+   "section": "neo-dollar",
+   "text": "PaymentDollar stablecoinPaid in USDT through an app. To her it is just money that holds its value.",
+   "file": "f967a762da4b3d.mp3",
+   "seconds": 7.15
+  },
+  {
+   "section": "neo-dollar",
+   "text": "SavingEscape from the pesoShe withdraws what she needs each week and keeps the rest in dollars.",
+   "file": "ab39771ede7897.mp3",
+   "seconds": 6.69
+  },
+  {
+   "section": "neo-dollar",
+   "text": "ReservesUS TreasuriesThe issuer's reserves are T-bills. Washington's debt gains a new buyer.",
+   "file": "c1ad56d6b1fdc1.mp3",
+   "seconds": 6.59
+  },
+  {
+   "section": "neo-dollar",
+   "text": "TollOwners of the railsThe app, router and payment stack each take a cut that rises with inflation.",
+   "file": "f547c8f61b7a1e.mp3",
+   "seconds": 6.18
+  },
+  {
+   "section": "neo-dollar",
+   "text": "Figure. The dollar's share of reserves has slipped, and no rival has taken its place.",
+   "file": "a2c7edf2247028.mp3",
+   "seconds": 5.2
+  },
+  {
+   "section": "neo-dollar",
+   "text": "The second purpose of the Neo-Dollar is quieter. Beijing taxes savers by holding deposit rates down. Washington taxes them through inflation, and because the dollar is the world's money, part of that bill is paid abroad. A channel the economy must pass through earns revenue that rises with prices without needing matching investment. The authors see that as one more reason to own one.",
+   "file": "4068be885d4ba8.mp3",
+   "seconds": 23.41
+  },
+  {
+   "section": "neo-dollar",
+   "text": "A reserve currency lets its issuer debase and share the cost with everyone abroad who holds it. Billions of people already save in dollars out of preference and habit, and stablecoins extend that to people no American bank would serve.",
+   "file": "b0237d67ec7ffa.mp3",
+   "seconds": 14.3
+  },
+  {
+   "section": "neo-dollar",
+   "text": "The stablecoin itself pays its holder no interest. The income on its Treasury reserves goes to the issuer, at rates Washington sets. The essay sets this beside older, more visible takings: FDR's 1933 gold order, and the paydown of war debt at rates below inflation after 1945. The new version is quieter, and it reaches Buenos Aires as easily as Boston.",
+   "file": "8ddc598cf95ec6.mp3",
+   "seconds": 25.26
+  },
+  {
+   "section": "k-shape",
+   "text": "The first K split owners from earners. The second splits the owners.",
+   "file": "b0c7a580f2e65c.mp3",
+   "seconds": 4.55
+  },
+  {
+   "section": "k-shape",
+   "text": "Owners of the rails.Distribution, payments and installed bases that AI must pass through.",
+   "file": "edcb494da29223.mp3",
+   "seconds": 6.83
+  },
+  {
+   "section": "k-shape",
+   "text": "Operators paid like capital.The few people who direct models, paid through acquihires and founder voting control.",
+   "file": "800d7ccb8b0e9d.mp3",
+   "seconds": 6.92
+  },
+  {
+   "section": "k-shape",
+   "text": "Scarce luxuries.Elite schools, artisanal tailoring, land in Wyoming and the Gulf. The authors' leading indicator is the Gulfstream order backlog.",
+   "file": "bd6353c6ea1df4.mp3",
+   "seconds": 10.08
+  },
+  {
+   "section": "k-shape",
+   "text": "The Guild.Licensed professionals whose signature carries legal liability. Their protection is real, but it favors incumbents over new entrants.",
+   "file": "b433a19e5b377a.mp3",
+   "seconds": 9.47
+  },
+  {
+   "section": "k-shape",
+   "text": "The rich world's back office.Offshore clerical and IT work in India and the Philippines is automated first.",
+   "file": "d7a6cf35a0924d.mp3",
+   "seconds": 8.31
+  },
+  {
+   "section": "k-shape",
+   "text": "The emigrant's route.Destination countries restrict entry just as the displaced need it most.",
+   "file": "91843cc3be3752.mp3",
+   "seconds": 6.22
+  },
+  {
+   "section": "k-shape",
+   "text": "Savers.Anyone holding cash or fixed income loses to inflation.",
+   "file": "694deb4f0c0da7.mp3",
+   "seconds": 4.55
+  },
+  {
+   "section": "k-shape",
+   "text": "The young.Employment of 22 to 25-year-olds in AI-exposed US jobs is 19% below trend. Experienced peers show no gap.",
+   "file": "a6e24fe6805c3f.mp3",
+   "seconds": 10.54
+  },
+  {
+   "section": "k-shape",
+   "text": "Figure. One new job for every six graduates.",
+   "file": "439b585afe1653.mp3",
+   "seconds": 2.83
+  },
+  {
+   "section": "k-shape",
+   "text": "Figure. Profit up, people down.",
+   "file": "a35f03c3337d27.mp3",
+   "seconds": 2.32
+  },
+  {
+   "section": "k-shape",
+   "text": "Two months after the riots began, Ravi's keycard stops working. A machine-drafted letter tells him his job has moved to the “agentic services tier.” He gets six months' severance, and the parent company's stock opens higher in New York. The letter does not mention that his months of approving agent output were the training data for his replacement. His government offers him reskilling, perhaps in mechanical or farm work.",
+   "file": "272677900560ee.mp3",
+   "seconds": 25.59
+  },
+  {
+   "section": "k-shape",
+   "text": "For poor countries, emigration was the release valve for an educated surplus. In January 2026 the EU and India signed a mobility pact promising up to 100,000 multi-year work permits. The essay doubts it survives: Britain, France and Germany all hold general elections within three years, with anti-migration parties strong in each.",
+   "file": "6a9de2f7b738dc.mp3",
+   "seconds": 22.85
+  },
+  {
+   "section": "k-shape",
+   "text": "The deeper reason is economic. As AI reduces demand for surplus labor, rich-country citizenship becomes more valuable and voters become less willing to share it. The authors note that an American passport already sells for $5 million and ask how generous anyone will be when it costs $50 million.",
+   "file": "87e52c14d445a3.mp3",
+   "seconds": 19.74
+  },
+  {
+   "section": "test",
+   "text": "A Height is not a bottleneck.",
+   "file": "4aa9f8ee94f947.mp3",
+   "seconds": 1.86
+  },
+  {
+   "section": "test",
+   "text": "In 1922 Lenin let private trade back into Russia because the state still held “all the Commanding Heights.”",
+   "file": "9567aedfa15493.mp3",
+   "seconds": 7.15
+  },
+  {
+   "section": "test",
+   "text": "A bottleneck is a temporary shortage. A data center without a grid connection hands its margin to the power company until power is solved. Then the shortage moves to transmission, then to chips, and the margin moves with it. The authors call this endless cycle a “financialized Samsara.” A Height is different: it keeps a lasting share of the activity it enables, and that activity makes it stronger.",
+   "file": "18d997b4e2e341.mp3",
+   "seconds": 25.54
+  },
+  {
+   "section": "test",
+   "text": "BottleneckScarce for nowHigh margins draw new supplyThe margin moves to the next shortagePriced for the cycle.",
+   "file": "fccbb030b9c926.mp3",
+   "seconds": 7.43
+  },
+  {
+   "section": "test",
+   "text": "Commanding HeightHard to route aroundIts take grows with the economy above itIts revenue rises with inflation without matching new investmentIt survives regulators, local politics and the sovereign.",
+   "file": "9d8b5981f55d1a.mp3",
+   "seconds": 13.24
+  },
+  {
+   "section": "test",
+   "text": "Figure. What a Commanding Height has looked like before.",
+   "file": "c9978344a0ba67.mp3",
+   "seconds": 3.99
+  },
+  {
+   "section": "test",
+   "text": "1906 · OilStandard Oil's pipelinesIt didn't need to own the oil fields. Owning the pipelines made it, in Justice Holmes's words, master of the fields.Toll on: moving every barrel.",
+   "file": "7eab7fb50ac146.mp3",
+   "seconds": 13.65
+  },
+  {
+   "section": "test",
+   "text": "1917 to 22 · RevolutionRail junctions & telegraphThe Bolsheviks seized the junctions, radio stations and wires first. Holding them let Lenin allow private trade back in.Toll on: every movement and message.",
+   "file": "78353a6eef359b.mp3",
+   "seconds": 15.74
+  },
+  {
+   "section": "test",
+   "text": "1984 · PrintThe dominant local paperBuffett noted that even a third-rate paper earned superb returns, as long as it was the only one in town.Toll on: every local ad.",
+   "file": "f9eb5ea5d2e917.mp3",
+   "seconds": 13.0
+  },
+  {
+   "section": "test",
+   "text": "2004 · InternetGoogle AdsIt took a lasting cut of the whole web economy and benefited from every dollar others spent building it.Toll on: every query.",
+   "file": "29a0f818cdc407.mp3",
+   "seconds": 11.38
+  },
+  {
+   "section": "firm",
+   "text": "Management dissolves. Operators become capital.",
+   "file": "105730f7fe3dc9.mp3",
+   "seconds": 3.25
+  },
+  {
+   "section": "firm",
+   "text": "Each era answers four questions: who supplies the capital, who decides, who does the work and who is owed.",
+   "file": "2f2e201b824874.mp3",
+   "seconds": 7.29
+  },
+  {
+   "section": "firm",
+   "text": "The essay follows Guinness from a leased Dublin brewery in 1759 to a brand inside Diageo. Ronald Coase explained that firms exist because markets are costly to use. Intelligence lowers those costs and makes work legible, so labor leaves the firm. Offshoring was the rehearsal. What remains is a small group of operators, too valuable to pay as employees, who demand to be paid and governed like capital.",
+   "file": "6e56f3daded994.mp3",
+   "seconds": 26.56
+  },
+  {
+   "section": "allocator",
+   "text": "Buy DoubleClick and Android, not Alphabet or Anthropic.",
+   "file": "1b5abe517180fa.mp3",
+   "seconds": 3.85
+  },
+  {
+   "section": "allocator",
+   "text": "Investors make two mistakes: they hold the last era's Heights and finance this era's inventions.",
+   "file": "1870191c087be4.mp3",
+   "seconds": 6.32
+  },
+  {
+   "section": "allocator",
+   "text": "The essay's investment conclusion is blunt. The safe compounders in most portfolios are this era's newspapers. The fashionable AI basket is stuck in Genesis, mistaking itself for a Height. Meanwhile the ten-year Treasury yield, at 5.17%, has broken above its long-run average of about 4.5% since 1871. The authors read that as the end of a forty-year bond bull market, which means no more help from falling rates. Returns will have to come from owning the right positions.",
+   "file": "a29e287f485528.mp3",
+   "seconds": 33.11
+  },
+  {
+   "section": "allocator",
+   "text": "Figure. The tailwind is gone.",
+   "file": "3cc2d24a374d34.mp3",
+   "seconds": 2.28
+  },
+  {
+   "section": "allocator",
+   "text": "Figure. Four places to own, one worth owning.",
+   "file": "ed8c4e87b472ae.mp3",
+   "seconds": 3.34
+  },
+  {
+   "section": "allocator",
+   "text": "Buy and rebuild.With most of the market at “estate-sale” prices, take old businesses private and rebuild them around models. The authors call this a new kind of private equity, the vehicle for spreading AI.",
+   "file": "851121b362894d.mp3",
+   "seconds": 13.19
+  },
+  {
+   "section": "allocator",
+   "text": "Sell the data, or be the environment.Firms valued mainly for their data should sell. Labs will buy operating businesses to use as training environments, as Google did with Spirit Airlines' records.",
+   "file": "caa1700fd2c5d9.mp3",
+   "seconds": 12.26
+  },
+  {
+   "section": "allocator",
+   "text": "Price operators as capital.Pay the few people who matter with equity, voting control and acquihire-sized packages. The old pay bands won't keep them.",
+   "file": "626c3529f1a472.mp3",
+   "seconds": 10.4
+  },
+  {
+   "section": "allocator",
+   "text": "Choose the jurisdiction.Law has become a product. Firms will pick the venue that lets them pay and govern operators freely.",
+   "file": "230ac811b10e36.mp3",
+   "seconds": 7.76
+  },
+  {
+   "section": "allocator",
+   "text": "The rail eraPennsylvania RailroadThe world's most valuable company in 1912. Its workforce peaked in 1920, and in 1970 it filed what was then the largest bankruptcy in US history.",
+   "file": "8fd2a039353506.mp3",
+   "seconds": 13.42
+  },
+  {
+   "section": "allocator",
+   "text": "Print and searchNewspapers  Google AdsHearst tolled the spread of news, and Google took over that toll at far greater scale. Now the queries are leaving for AI agents.",
+   "file": "22cc190786702d.mp3",
+   "seconds": 11.19
+  },
+  {
+   "section": "allocator",
+   "text": "The intelligence eraa redacted nameThe essay blanks out its own candidate: a company trading at a dull multiple suited to the old world.",
+   "file": "a706dc00d24803.mp3",
+   "seconds": 9.66
+  },
+  {
+   "section": "allocator",
+   "text": "Figure. Even Buffett anchored to the old Height.",
+   "file": "6048ae6206fb14.mp3",
+   "seconds": 3.11
+  },
+  {
+   "section": "allocator",
+   "text": "Figure. Five questions for a portfolio review.",
+   "file": "66a9af3502cebb.mp3",
+   "seconds": 3.25
+  },
+  {
+   "section": "allocator",
+   "text": "Does intelligence open a new route around your holdings' tolls?",
+   "file": "6194f680abd694.mp3",
+   "seconds": 3.67
+  },
+  {
+   "section": "allocator",
+   "text": "Are your steady compounders the newspapers of 1984?",
+   "file": "883f02e1d3748e.mp3",
+   "seconds": 3.62
+  },
+  {
+   "section": "allocator",
+   "text": "Is your AI exposure a Height, or an invention still in Genesis?",
+   "file": "0546e54cceea9d.mp3",
+   "seconds": 4.74
+  },
+  {
+   "section": "allocator",
+   "text": "Will you sell the old Heights while they still look like Heights?",
+   "file": "f8a1afbee51e8e.mp3",
+   "seconds": 3.48
+  },
+  {
+   "section": "allocator",
+   "text": "Are your managers mandated to buy what comes next, or only what exists?",
+   "file": "234782edb73c1e.mp3",
+   "seconds": 4.88
+  },
+  {
+   "section": "closing",
+   "text": "Out from the garden, never to return.",
+   "file": "ef8568d11ea85a.mp3",
+   "seconds": 2.41
+  },
+  {
+   "section": "closing",
+   "text": "The essay ends where it began, with a K that opens at every level. Ravi's daughter can reach the machine whenever she likes. She might reject it, or live the same life faster, or become something new. Perhaps the many in the middle will live long, content lives. The few who see and act, the authors write, will become a new shape of their own, and the rest of us their subjects.",
+   "file": "ee5a3ecab38301.mp3",
+   "seconds": 24.06
+  },
+  {
+   "section": "closing",
+   "text": "Then the frame widens. Technology has a direction, from cuneiform to the assembly line to the first atomic test in the New Mexico desert, and now to machine intelligence. They ask whether its makers felt what every parent knows: that the child may surpass them. We are heading, they write, toward a city at the edge of sight. They don't say when we will arrive, only that the road passes through older and harder human conditions before something entirely different.",
+   "file": "593e41ac9daec6.mp3",
+   "seconds": 29.4
+  },
+  {
+   "section": "closing",
+   "text": "Their last instruction is to accept that the world as you knew it has already ended, and to prepare for what comes after.",
+   "file": "2b7d46537cf54f.mp3",
+   "seconds": 7.43
+  },
+  {
+   "section": "glossary",
+   "text": "The essay's vocabulary.",
+   "file": "99032a88e22533.mp3",
+   "seconds": 1.72
+  },
+  {
+   "section": "glossary",
+   "text": "If models become commodities, which distribution channels can AI itself not route around?",
+   "file": "17383fbbeb9ee3.mp3",
+   "seconds": 5.71
+  },
+  {
+   "section": "glossary",
+   "text": "Does the Neo-Dollar thesis survive strict stablecoin regulation, or a rival digital currency?",
+   "file": "abe67c1f6e55d3.mp3",
+   "seconds": 6.5
+  },
+  {
+   "section": "glossary",
+   "text": "How long will Beijing keep publishing near-frontier open models, and what would make it stop?",
+   "file": "e2874891fd4df4.mp3",
+   "seconds": 5.57
+  },
+  {
+   "section": "glossary",
+   "text": "Is quiet nationalization of the labs more likely than open public ownership?",
+   "file": "026572978d9c01.mp3",
+   "seconds": 4.74
+  },
+  {
+   "section": "glossary",
+   "text": "What line in an earnings report would reveal a Height the market has not yet priced?",
+   "file": "4bf84c9e63e9d0.mp3",
+   "seconds": 4.64
+  }
+ ]
+}
